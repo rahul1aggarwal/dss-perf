@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for size in 1K 64K 1M 16M 64M
+do 
+	for threads in 1 4 16 32 64 128
+	do
+		 echo $size, $threads >> ./results_read.log
+		 ceph osd pool create bench$size$threads 2048
+		 rados bench -p bench$size$threads 30 write -b $size -t $threads --no-cleanup |  grep -i 'bandwidth\|latency' >> ./results_rw.log
+		 rados bench -p bench$size$threads 60 seq -b $size -t $threads | grep -i 'bandwidth\|latency' >> ./results_read.log
+	     	rados rmpool bench$size$threads bench$size$threads --yes-i-really-really-mean-it
+	done
+done
+		

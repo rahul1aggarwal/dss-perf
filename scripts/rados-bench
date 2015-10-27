@@ -1,0 +1,4 @@
+rados bench -p bench1 50 write &  
+rados bench -p bench2 50 write &  
+rados bench -p bench3 50 write &  
+rados bench -p bench4 50 write &  

@@ -1,0 +1,240 @@
+Bandwidth (MB/sec):     0.061 
+Stddev Bandwidth:       0.0313447
+Max bandwidth (MB/sec): 0.0771484
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0160954
+Stddev Latency:         0.124151
+Max latency:            5.37336
+Min latency:            0.00798376
+Bandwidth (MB/sec):     0.292 
+Stddev Bandwidth:       0.0570158
+Max bandwidth (MB/sec): 0.310547
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0133809
+Stddev Latency:         0.0101311
+Max latency:            0.886453
+Min latency:            0.0064656
+Bandwidth (MB/sec):     0.643 
+Stddev Bandwidth:       0.117311
+Max bandwidth (MB/sec): 0.666992
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0242761
+Stddev Latency:         0.00870715
+Max latency:            0.449881
+Min latency:            0.00813343
+Bandwidth (MB/sec):     0.720 
+Stddev Bandwidth:       0.256697
+Max bandwidth (MB/sec): 0.817383
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0433993
+Stddev Latency:         0.0922577
+Max latency:            3.01679
+Min latency:            0.0113688
+Bandwidth (MB/sec):     0.875 
+Stddev Bandwidth:       0.307453
+Max bandwidth (MB/sec): 0.998047
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0713642
+Stddev Latency:         0.122215
+Max latency:            3.17729
+Min latency:            0.0115738
+Bandwidth (MB/sec):     0.955 
+Stddev Bandwidth:       0.339139
+Max bandwidth (MB/sec): 1.13184
+Min bandwidth (MB/sec): 0
+Average Latency:        0.13088
+Stddev Latency:         0.235206
+Max latency:            5.22758
+Min latency:            0.0129144
+Bandwidth (MB/sec):     3.907 
+Stddev Bandwidth:       1.5885
+Max bandwidth (MB/sec): 4.5625
+Min bandwidth (MB/sec): 0
+Average Latency:        0.015993
+Stddev Latency:         0.071375
+Max latency:            3.10445
+Min latency:            0.00821729
+Bandwidth (MB/sec):     15.591 
+Stddev Bandwidth:       6.23655
+Max bandwidth (MB/sec): 18.6875
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0160308
+Stddev Latency:         0.061949
+Max latency:            2.74488
+Min latency:            0.00777294
+Bandwidth (MB/sec):     35.609 
+Stddev Bandwidth:       13.0791
+Max bandwidth (MB/sec): 40.9375
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0280771
+Stddev Latency:         0.0740195
+Max latency:            2.93263
+Min latency:            0.0089101
+Bandwidth (MB/sec):     48.383 
+Stddev Bandwidth:       8.84255
+Max bandwidth (MB/sec): 49.4375
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0413225
+Stddev Latency:         0.0175624
+Max latency:            0.374314
+Min latency:            0.0113569
+Bandwidth (MB/sec):     58.209 
+Stddev Bandwidth:       10.6235
+Max bandwidth (MB/sec): 60.875
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0686973
+Stddev Latency:         0.0393876
+Max latency:            0.551239
+Min latency:            0.013833
+Bandwidth (MB/sec):     60.541 
+Stddev Bandwidth:       21.2419
+Max bandwidth (MB/sec): 71.3125
+Min bandwidth (MB/sec): 0
+Average Latency:        0.132042
+Stddev Latency:         0.207144
+Max latency:            3.86305
+Min latency:            0.0146852
+Bandwidth (MB/sec):     23.549 
+Stddev Bandwidth:       10.4657
+Max bandwidth (MB/sec): 35
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0424621
+Stddev Latency:         0.0947177
+Max latency:            1.5424
+Min latency:            0.014387
+Bandwidth (MB/sec):     88.859 
+Stddev Bandwidth:       31.5856
+Max bandwidth (MB/sec): 139
+Min bandwidth (MB/sec): 0
+Average Latency:        0.0449718
+Stddev Latency:         0.0632087
+Max latency:            0.973526
+Min latency:            0.0139406
+Bandwidth (MB/sec):     157.456 
+Stddev Bandwidth:       83.092
+Max bandwidth (MB/sec): 340
+Min bandwidth (MB/sec): 0
+Average Latency:        0.101229
+Stddev Latency:         0.120326
+Max latency:            1.37382
+Min latency:            0.0139975
+Bandwidth (MB/sec):     176.963 
+Stddev Bandwidth:       90.9034
+Max bandwidth (MB/sec): 300
+Min bandwidth (MB/sec): 0
+Average Latency:        0.180615
+Stddev Latency:         0.276309
+Max latency:            3.82175
+Min latency:            0.0154436
+Bandwidth (MB/sec):     188.686 
+Stddev Bandwidth:       100.91
+Max bandwidth (MB/sec): 409
+Min bandwidth (MB/sec): 0
+Average Latency:        0.338907
+Stddev Latency:         0.247209
+Max latency:            2.451
+Min latency:            0.0475543
+Bandwidth (MB/sec):     195.139 
+Stddev Bandwidth:       102.474
+Max bandwidth (MB/sec): 438
+Min bandwidth (MB/sec): 0
+Average Latency:        0.650478
+Stddev Latency:         0.37634
+Max latency:            3.2012
+Min latency:            0.0523898
+Bandwidth (MB/sec):     43.429 
+Stddev Bandwidth:       26.59
+Max bandwidth (MB/sec): 80
+Min bandwidth (MB/sec): 0
+Average Latency:        0.3684
+Stddev Latency:         0.567756
+Max latency:            5.17714
+Min latency:            0.188101
+Bandwidth (MB/sec):     196.253 
+Stddev Bandwidth:       46.0926
+Max bandwidth (MB/sec): 240
+Min bandwidth (MB/sec): 0
+Average Latency:        0.324623
+Stddev Latency:         0.124553
+Max latency:            0.906601
+Min latency:            0.185564
+Bandwidth (MB/sec):     436.954 
+Stddev Bandwidth:       95.6611
+Max bandwidth (MB/sec): 560
+Min bandwidth (MB/sec): 0
+Average Latency:        0.585453
+Stddev Latency:         0.242214
+Max latency:            1.59918
+Min latency:            0.208049
+Bandwidth (MB/sec):     508.010 
+Stddev Bandwidth:       220.352
+Max bandwidth (MB/sec): 704
+Min bandwidth (MB/sec): 0
+Average Latency:        1.00646
+Stddev Latency:         0.73806
+Max latency:            6.55368
+Min latency:            0.256945
+Bandwidth (MB/sec):     603.173 
+Stddev Bandwidth:       230.826
+Max bandwidth (MB/sec): 880
+Min bandwidth (MB/sec): 0
+Average Latency:        1.6655
+Stddev Latency:         1.24219
+Max latency:            10.2151
+Min latency:            0.351098
+Bandwidth (MB/sec):     666.283 
+Stddev Bandwidth:       275.965
+Max bandwidth (MB/sec): 896
+Min bandwidth (MB/sec): 0
+Average Latency:        3.00098
+Stddev Latency:         0.942778
+Max latency:            8.97403
+Min latency:            1.97837
+Bandwidth (MB/sec):     79.072 
+Stddev Bandwidth:       33.4469
+Max bandwidth (MB/sec): 128
+Min bandwidth (MB/sec): 0
+Average Latency:        0.809376
+Stddev Latency:         0.0886597
+Max latency:            1.06543
+Min latency:            0.723257
+Bandwidth (MB/sec):     253.088 
+Stddev Bandwidth:       75.2005
+Max bandwidth (MB/sec): 384
+Min bandwidth (MB/sec): 0
+Average Latency:        1.00851
+Stddev Latency:         0.415434
+Max latency:            4.00952
+Min latency:            0.688544
+Bandwidth (MB/sec):     532.224 
+Stddev Bandwidth:       224.588
+Max bandwidth (MB/sec): 960
+Min bandwidth (MB/sec): 0
+Average Latency:        1.90007
+Stddev Latency:         1.10465
+Max latency:            8.30046
+Min latency:            0.757777
+Bandwidth (MB/sec):     566.964 
+Stddev Bandwidth:       242.124
+Max bandwidth (MB/sec): 832
+Min bandwidth (MB/sec): 0
+Average Latency:        3.44171
+Stddev Latency:         0.499669
+Max latency:            6.59233
+Min latency:            1.63022
+Bandwidth (MB/sec):     496.134 
+Stddev Bandwidth:       471.185
+Max bandwidth (MB/sec): 2560
+Min bandwidth (MB/sec): 0
+Average Latency:        6.85572
+Stddev Latency:         1.15151
+Max latency:            9.65045
+Min latency:            2.8191
+Bandwidth (MB/sec):     422.733 
+Stddev Bandwidth:       1234.17
+Max bandwidth (MB/sec): 7360
+Min bandwidth (MB/sec): 0
+Average Latency:        13.6139
+Stddev Latency:         6.56962
+Max latency:            20.7647
+Min latency:            1.91518

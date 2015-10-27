@@ -1,0 +1,142 @@
+Linux 3.16.0-51-generic (dss-compute-1) 	10/27/2015 	_x86_64_	(32 CPU)
+
+09:24:04 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:05 PM     0     19958  474.76  151.46    0.00  626.21     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:05 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:06 PM     0     19958  261.00   81.00    0.00  342.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:06 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:07 PM     0     19958  209.00   67.00    0.00  276.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:07 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:08 PM     0     19958  306.00   95.00    0.00  401.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:08 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:09 PM     0     19958  325.00   98.00    0.00  423.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:09 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:10 PM     0     19958  298.00  100.00    0.00  398.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:10 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:11 PM     0     19958  178.00   60.00    0.00  238.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:11 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:12 PM     0     19958   72.00   22.00    0.00   94.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:12 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:13 PM     0     19958   73.00   26.00    0.00   99.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:13 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:14 PM     0     19958  153.00   50.00    0.00  203.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:14 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:15 PM     0     19958  171.00   63.00    0.00  234.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:15 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:16 PM     0     19958  285.00   75.00    0.00  360.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:16 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:17 PM     0     19958  324.00  108.00    0.00  432.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:17 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:18 PM     0     19958  264.00   81.00    0.00  345.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:18 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:19 PM     0     19958  334.00  109.00    0.00  443.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:19 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:20 PM     0     19958  192.00   57.00    0.00  249.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:20 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:21 PM     0     19958  277.00   82.00    0.00  359.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:21 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:22 PM     0     19958  399.00  151.00    0.00  550.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:22 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:23 PM     0     19958  217.00   75.00    0.00  292.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:23 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:24 PM     0     19958  237.00   82.00    0.00  319.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:24 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:25 PM     0     19958  322.77  112.87    0.00  435.64     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:25 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:26 PM     0     19958  258.59   82.83    0.00  341.41     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:26 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:27 PM     0     19958  202.00   73.00    0.00  275.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:27 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:28 PM     0     19958  111.88   29.70    0.00  141.58     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:28 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:29 PM     0     19958   20.00    8.00    0.00   28.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:29 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:30 PM     0     19958   71.00   23.00    0.00   94.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:30 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:31 PM     0     19958   65.00   16.00    0.00   81.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:31 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:32 PM     0     19958   53.00   16.00    0.00   69.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:32 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:33 PM     0     19958   15.00    6.00    0.00   21.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:33 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:34 PM     0     19958   94.00   29.00    0.00  123.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:34 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:35 PM     0     19958  240.00   83.00    0.00  323.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:35 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:36 PM     0     19958  241.00   81.00    0.00  322.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:36 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:37 PM     0     19958  385.00  143.00    0.00  528.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:37 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:38 PM     0     19958  364.00  117.00    0.00  481.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:38 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:39 PM     0     19958  410.00  139.00    0.00  549.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:39 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:40 PM     0     19958  280.00  103.00    0.00  383.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:40 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:41 PM     0     19958   86.00   22.00    0.00  108.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:41 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:42 PM     0     19958   71.00   23.00    0.00   94.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:42 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:43 PM     0     19958  269.00   95.00    0.00  364.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:43 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:44 PM     0     19958  246.00   89.00    0.00  335.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:44 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:45 PM     0     19958  279.00  101.00    0.00  380.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:45 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:46 PM     0     19958  267.00   79.00    0.00  346.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:46 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:47 PM     0     19958  120.00   38.00    0.00  158.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:47 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:48 PM     0     19958  214.00   81.00    0.00  295.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:48 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:49 PM     0     19958  206.00   63.00    0.00  269.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:49 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:50 PM     0     19958   70.00   15.00    0.00   85.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
+
+09:24:50 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+09:24:51 PM     0     19958   71.00   19.00    0.00   90.00     4  /usr/bin/radosgw --cluster=ceph --id rgw.dss-compute-1 -f 
