@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="dss-perf-numbers" description="Initial performance numbers on a two node cluster">
+
+  <storage type="s3" config="accesskey=904M5KRQ9ONBFQE2NACD;secretkey=2EiAoCO/YNmvYAQhaqJmF0TVZ1Uw5K382hHfH5vm;proxyhost=;proxyport=;endpoint=http://10.140.13.54:7480" />
+
+  <workflow>
+
+     <workstage name="1k-1t-write">
+
+      <work name="1k-1t" workers="1" runtime="120">
+        <operation type="write" ratio="100" config="cprefix=dssreadbench;containers=u(1,10);objects=r(300,310);sizes=c(1)KB" />
+      </work>
+</workstage>
+    
+<workstage name="64k-1t-write">
+
+      <work name="64k-1t" workers="1" runtime="120">
+        <operation type="write" ratio="100" config="cprefix=dssreadbench;containers=u(11,20);objects=r(300,310);sizes=c(64)KB" />
+      </work>
+</workstage>
+
+<workstage name="1m-1t-write">
+
+      <work name="1m-1t" workers="1" runtime="120">
+        <operation type="write" ratio="100" config="cprefix=dssreadbench;containers=u(21,30);objects=r(300,310);sizes=c(1024)KB" />
+      </work>
+</workstage>
+
+<workstage name="16m-1t-write">
+
+      <work name="16m-1t" workers="1" runtime="120">
+        <operation type="write" ratio="100" config="cprefix=dssreadbench;containers=u(31,40);objects=r(300,310);sizes=c(16384)KB" />
+      </work>
+</workstage>
+
+<workstage name="64m-1t-write">
+
+      <work name="64m-1t" workers="1" runtime="120">
+        <operation type="write" ratio="100" config="cprefix=dssreadbench;containers=u(41,50);objects=r(300,310);sizes=c(65536)KB" />
+      </work>
+</workstage>
+
+  </workflow>
+
+</workload>
+
+

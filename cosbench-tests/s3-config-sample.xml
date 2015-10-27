@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="s3-sample" description="sample benchmark for s3">
+
+  <storage type="s3" config="accesskey=WFWNK9HV3WB3EFV4YZ55;secretkey=hVYoEC2qYHL6XZbfeoHhwcl4J/AoPOG/UESmF3DX;proxyhost=;proxyport=;endpoint=http://10.140.13.54:7480" />
+
+  <workflow>
+
+    <workstage name="init">
+      <work type="init" workers="1" config="cprefix=s3testqwer;containers=r(1,2)" />
+    </workstage>
+
+ <workstage name="prepare">
+      <work type="prepare" workers="1" config="cprefix=s3testqwer;containers=r(1,2);objects=r(1,10);sizes=c(64)KB" />
+    </workstage>
+
+    <workstage name="main">
+      <work name="main" workers="1" runtime="100">
+        <operation type="write" ratio="100" config="cprefix=s3testqwer;containers=u(1,2);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+    </workstage>
+
+
+  </workflow>
+
+</workload>
+
+

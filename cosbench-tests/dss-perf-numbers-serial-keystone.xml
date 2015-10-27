@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="dss-perf-numbers" description="Initial performance numbers on a two node cluster">
+
+  <storage type="s3" config="accesskey=fe462c5ba0f848f1ab7eaf3896b21242;secretkey=87cf007a06694a6c906dfa5bab7e0046;proxyhost=;proxyport=;endpoint=http://10.140.13.54:7480" />
+
+  <workflow>
+
+    <workstage name="init">
+      <work type="init" workers="1" config="cprefix=keystonebench;containers=r(1,300)" />
+    </workstage>
+
+    <workstage name="1k-1t">
+
+      <work name="1k-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-2t">
+      <work name="1k-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-4t">
+      <work name="1k-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-8t">
+      <work name="1k-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-16t">
+      <work name="1k-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-32t">
+      <work name="1k-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-64t">
+      <work name="1k-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-128t">
+      <work name="1k-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+      </work>
+</workstage>
+<workstage name="1k-256t">
+      <work name="1k-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1)KB" />
+     </work>
+</workstage>
+
+<workstage name="2k-1t">
+      <work name="2k-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-2t">
+      <work name="2k-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-4t">
+      <work name="2k-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-8t">
+      <work name="2k-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-16t">
+      <work name="2k-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-32t">
+      <work name="2k-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-64t">
+      <work name="2k-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-128t">
+      <work name="2k-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="2k-256t">
+      <work name="2k-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(2)KB" />
+      </work>
+</workstage>
+<workstage name="4k-1t">
+
+      <work name="4k-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-2t">
+      <work name="4k-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-4t">
+      <work name="4k-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-8t">
+      <work name="4k-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-16t">
+      <work name="4k-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-32t">
+      <work name="4k-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-64t">
+      <work name="4k-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-128t">
+      <work name="4k-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+      </work>
+</workstage>
+<workstage name="4k-256t">
+      <work name="4k-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4)KB" />
+     </work>
+</workstage>
+<workstage name="16k-1t">
+
+      <work name="16k-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-2t">
+      <work name="16k-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-4t">
+      <work name="16k-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-8t">
+      <work name="16k-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-16t">
+      <work name="16k-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-32t">
+      <work name="16k-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-64t">
+      <work name="16k-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-128t">
+      <work name="16k-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+      </work>
+</workstage>
+<workstage name="16k-256t">
+      <work name="16k-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16)KB" />
+     </work>
+</workstage>
+<workstage name="64k-1t">
+
+      <work name="64k-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-2t">
+      <work name="64k-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-4t">
+      <work name="64k-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-8t">
+      <work name="64k-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-16t">
+      <work name="64k-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-32t">
+      <work name="64k-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-64t">
+      <work name="64k-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-128t">
+      <work name="64k-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+      </work>
+</workstage>
+<workstage name="64k-256t">
+      <work name="64k-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(64)KB" />
+     </work>
+</workstage>
+<workstage name="256k-1t">
+
+      <work name="256k-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-2t">
+      <work name="256k-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-4t">
+      <work name="256k-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-8t">
+      <work name="256k-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-16t">
+      <work name="256k-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-32t">
+      <work name="256k-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-64t">
+      <work name="256k-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-128t">
+      <work name="256k-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+      </work>
+</workstage>
+<workstage name="256k-256t">
+      <work name="256k-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(256)KB" />
+     </work>
+</workstage>
+<workstage name="1m-1t">
+
+      <work name="1m-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-2t">
+      <work name="1m-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-4t">
+      <work name="1m-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-8t">
+      <work name="1m-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-16t">
+      <work name="1m-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-32t">
+      <work name="1m-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-64t">
+      <work name="1m-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-128t">
+      <work name="1m-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+      </work>
+</workstage>
+<workstage name="1m-256t">
+      <work name="1m-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(1024)KB" />
+     </work>
+</workstage>
+<workstage name="4m-1t">
+
+      <work name="4m-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-2t">
+      <work name="4m-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-4t">
+      <work name="4m-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-8t">
+      <work name="4m-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-16t">
+      <work name="4m-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-32t">
+      <work name="4m-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-64t">
+      <work name="4m-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-128t">
+      <work name="4m-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+      </work>
+</workstage>
+<workstage name="4m-256t">
+      <work name="4m-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(4096)KB" />
+     </work>
+</workstage>
+<workstage name="16m-1t">
+
+      <work name="16m-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-2t">
+      <work name="16m-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-4t">
+      <work name="16m-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-8t">
+      <work name="16m-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-16t">
+      <work name="16m-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-32t">
+      <work name="16m-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-64t">
+      <work name="16m-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-128t">
+      <work name="16m-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+      </work>
+</workstage>
+<workstage name="16m-256t">
+      <work name="16m-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(16384)KB" />
+     </work>
+</workstage>
+<workstage name="64m-1t">
+
+      <work name="64m-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-2t">
+      <work name="64m-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-4t">
+      <work name="64m-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-8t">
+      <work name="64m-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-16t">
+      <work name="64m-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-32t">
+      <work name="64m-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-64t">
+      <work name="64m-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-128t">
+      <work name="64m-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+      </work>
+</workstage>
+<workstage name="64m-256t">
+      <work name="64m-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(65536)KB" />
+     </work>
+</workstage>
+<workstage name="256m-1t">
+
+      <work name="256m-1t" workers="1" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-2t">
+      <work name="256m-2t" workers="2" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-4t">
+      <work name="256m-4t" workers="4" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-8t">
+      <work name="256m-8t" workers="8" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-16t">
+      <work name="256m-16t" workers="16" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-32t">
+      <work name="256m-32t" workers="32" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-64t">
+      <work name="256m-64t" workers="64" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-128t">
+      <work name="256m-128t" workers="128" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+      </work>
+</workstage>
+<workstage name="256m-256t">
+      <work name="256m-256t" workers="256" runtime="180">
+        <operation type="write" ratio="100" config="cprefix=keystonebench;containers=u(1,300);objects=u(300,400);sizes=c(262144)KB" />
+     </work>
+</workstage>
+
+
+  </workflow>
+
+</workload>
+
+

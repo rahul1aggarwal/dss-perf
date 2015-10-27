@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="dss-perf-numbers" description="Initial performance numbers on a two node cluster">
+
+  <storage type="s3" config="accesskey=904M5KRQ9ONBFQE2NACD;secretkey=2EiAoCO/YNmvYAQhaqJmF0TVZ1Uw5K382hHfH5vm;proxyhost=;proxyport=;endpoint=http://10.140.13.54:7480" />
+
+  <workflow>
+
+<workstage name="1k-128t-write">
+
+      <work name="1k-128t" workers="512" runtime="300">
+        <operation type="write" ratio="100" config="cprefix=dssreadbench;containers=u(1,10);objects=u(1,300);sizes=c(1024)KB" />
+      </work>
+</workstage>
+
+  </workflow>
+
+</workload>
+
+
