@@ -1,0 +1,5 @@
+Op-Type,Sample-Type,Op-Count,Byte-Count,Avg-ResTime,Avg-ProcTime,Throughput,Bandwidth,Succ-Ratio
+read,read,121,7929856000,493.83,55.91,2.03,132710591.94,100%
+read,read,124,8126464000,482.23,44.69,2.07,135887229.74,100%
+read,read,122,7995392000,490.32,48.91,2.04,133641867.38,100%
+read,read,123,8060928000,485.54,39.95,2.06,134967400.59,100%

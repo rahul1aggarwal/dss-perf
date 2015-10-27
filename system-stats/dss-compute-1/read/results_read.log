@@ -1,0 +1,150 @@
+1K, 1
+Bandwidth (MB/sec):    0.385 
+Average Latency:       0.00253557
+Max latency:           0.0105472
+Min latency:           0.0010978
+1K, 4
+Bandwidth (MB/sec):    1.096 
+Average Latency:       0.00356058
+Max latency:           0.0120648
+Min latency:           0.0010338
+1K, 16
+Bandwidth (MB/sec):    4.258 
+Average Latency:       0.00366636
+Max latency:           0.0162501
+Min latency:           0.000676469
+1K, 32
+Bandwidth (MB/sec):    6.857 
+Average Latency:       0.00455239
+Max latency:           0.0213428
+Min latency:           0.000712349
+1K, 64
+Bandwidth (MB/sec):    8.889 
+Average Latency:       0.00701475
+Max latency:           0.0448652
+Min latency:           0.000718999
+1K, 128
+Bandwidth (MB/sec):    11.908 
+Average Latency:       0.0104582
+Max latency:           0.133526
+Min latency:           0.000756321
+64K, 1
+Bandwidth (MB/sec):    21.758 
+Average Latency:       0.00286986
+Max latency:           0.0126333
+Min latency:           0.00130475
+64K, 4
+Bandwidth (MB/sec):    66.184 
+Average Latency:       0.00377452
+Max latency:           0.0127809
+Min latency:           0.00123382
+64K, 16
+Bandwidth (MB/sec):    251.939 
+Average Latency:       0.00396539
+Max latency:           0.0174339
+Min latency:           0.000964912
+64K, 32
+Bandwidth (MB/sec):    391.683 
+Average Latency:       0.00509964
+Max latency:           0.0220819
+Min latency:           0.00100078
+64K, 64
+Bandwidth (MB/sec):    463.305 
+Average Latency:       0.00862268
+Max latency:           1.26844
+Min latency:           0.000986441
+64K, 128
+Bandwidth (MB/sec):    671.976 
+Average Latency:       0.0118398
+Max latency:           0.0822771
+Min latency:           0.00114499
+1M, 1
+Bandwidth (MB/sec):    176.615 
+Average Latency:       0.00565897
+Max latency:           0.0155588
+Min latency:           0.00310117
+1M, 4
+Bandwidth (MB/sec):    632.447 
+Average Latency:       0.0063191
+Max latency:           0.0938593
+Min latency:           0.00311488
+1M, 16
+Bandwidth (MB/sec):    797.653 
+Average Latency:       0.0200377
+Max latency:           0.330027
+Min latency:           0.00323269
+1M, 32
+Bandwidth (MB/sec):    532.864 
+Average Latency:       0.0599666
+Max latency:           0.831407
+Min latency:           0.00331323
+1M, 64
+Bandwidth (MB/sec):    745.441 
+Average Latency:       0.085622
+Max latency:           1.05849
+Min latency:           0.00329891
+1M, 128
+Bandwidth (MB/sec):    632.207 
+Average Latency:       0.20172
+Max latency:           1.87987
+Min latency:           0.00353679
+16M, 1
+Bandwidth (MB/sec):    319.865 
+Average Latency:       0.0499615
+Max latency:           0.0800673
+Min latency:           0.0368591
+16M, 4
+Bandwidth (MB/sec):    706.274 
+Average Latency:       0.0904987
+Max latency:           0.561973
+Min latency:           0.0373097
+16M, 16
+Bandwidth (MB/sec):    709.663 
+Average Latency:       0.35889
+Max latency:           1.48611
+Min latency:           0.0945506
+16M, 32
+Bandwidth (MB/sec):    728.330 
+Average Latency:       0.700586
+Max latency:           2.39227
+Min latency:           0.0933146
+16M, 64
+Bandwidth (MB/sec):    804.679 
+Average Latency:       1.26268
+Max latency:           6.85732
+Min latency:           0.0787469
+16M, 128
+Bandwidth (MB/sec):    837.092 
+Average Latency:       2.38641
+Max latency:           5.73701
+Min latency:           0.973282
+64M, 1
+Bandwidth (MB/sec):    384.100 
+Average Latency:       0.166078
+Max latency:           0.209652
+Min latency:           0.119544
+64M, 4
+Bandwidth (MB/sec):    483.174 
+Average Latency:       0.52718
+Max latency:           1.01882
+Min latency:           0.135947
+64M, 16
+Bandwidth (MB/sec):    454.274 
+Average Latency:       2.23922
+Max latency:           5.48125
+Min latency:           0.147656
+64M, 32
+Bandwidth (MB/sec):    468.964 
+Average Latency:       4.27337
+Max latency:           7.64173
+Min latency:           1.67667
+64M, 64
+Bandwidth (MB/sec):    497.011 
+Average Latency:       7.465
+Max latency:           10.0201
+Min latency:           1.75529
+64M, 128
+Bandwidth (MB/sec):    420.287 
+Average Latency:       14.9165
+Max latency:           21.16
+Min latency:           2.38214
