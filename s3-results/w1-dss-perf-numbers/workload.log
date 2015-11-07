@@ -1,0 +1,155 @@
+================================================== stage: s1-init ==================================================
+---------------------------------- mission: M6E179F0C9B, driver: driver1 ----------------------------------
+2015-11-07 10:24:36,766 [INFO] [Log4jLogManager] - will append log to file /home/ubuntu/cos/log/mission/M6E179F0C9B.log
+2015-11-07 10:24:37,030 [INFO] [NoneStorage] - performing PUT at /dsswritebench1
+2015-11-07 10:24:37,754 [INFO] [NoneStorage] - performing PUT at /dsswritebench2
+2015-11-07 10:24:38,258 [INFO] [NoneStorage] - performing PUT at /dsswritebench3
+2015-11-07 10:24:38,751 [INFO] [NoneStorage] - performing PUT at /dsswritebench4
+2015-11-07 10:24:39,323 [INFO] [NoneStorage] - performing PUT at /dsswritebench5
+2015-11-07 10:24:39,786 [INFO] [NoneStorage] - performing PUT at /dsswritebench6
+2015-11-07 10:24:40,588 [INFO] [NoneStorage] - performing PUT at /dsswritebench7
+2015-11-07 10:24:41,250 [INFO] [NoneStorage] - performing PUT at /dsswritebench8
+2015-11-07 10:24:41,849 [INFO] [NoneStorage] - performing PUT at /dsswritebench9
+2015-11-07 10:24:42,522 [INFO] [NoneStorage] - performing PUT at /dsswritebench10
+2015-11-07 10:24:43,098 [INFO] [NoneStorage] - performing PUT at /dsswritebench11
+2015-11-07 10:24:43,666 [INFO] [NoneStorage] - performing PUT at /dsswritebench12
+2015-11-07 10:24:44,301 [INFO] [NoneStorage] - performing PUT at /dsswritebench13
+2015-11-07 10:24:44,690 [INFO] [NoneStorage] - performing PUT at /dsswritebench14
+2015-11-07 10:24:45,249 [INFO] [NoneStorage] - performing PUT at /dsswritebench15
+2015-11-07 10:24:45,773 [INFO] [NoneStorage] - performing PUT at /dsswritebench16
+2015-11-07 10:24:46,345 [INFO] [NoneStorage] - performing PUT at /dsswritebench17
+2015-11-07 10:24:46,891 [INFO] [NoneStorage] - performing PUT at /dsswritebench18
+2015-11-07 10:24:47,318 [INFO] [NoneStorage] - performing PUT at /dsswritebench19
+2015-11-07 10:24:47,658 [INFO] [NoneStorage] - performing PUT at /dsswritebench20
+2015-11-07 10:24:48,198 [INFO] [NoneStorage] - performing PUT at /dsswritebench21
+2015-11-07 10:24:48,841 [INFO] [NoneStorage] - performing PUT at /dsswritebench22
+2015-11-07 10:24:49,497 [INFO] [NoneStorage] - performing PUT at /dsswritebench23
+2015-11-07 10:24:50,070 [INFO] [NoneStorage] - performing PUT at /dsswritebench24
+2015-11-07 10:24:50,585 [INFO] [NoneStorage] - performing PUT at /dsswritebench25
+2015-11-07 10:24:50,939 [INFO] [NoneStorage] - performing PUT at /dsswritebench26
+2015-11-07 10:24:51,443 [INFO] [NoneStorage] - performing PUT at /dsswritebench27
+2015-11-07 10:24:52,003 [INFO] [NoneStorage] - performing PUT at /dsswritebench28
+2015-11-07 10:24:52,667 [INFO] [NoneStorage] - performing PUT at /dsswritebench29
+2015-11-07 10:24:53,266 [INFO] [NoneStorage] - performing PUT at /dsswritebench30
+2015-11-07 10:24:53,970 [INFO] [NoneStorage] - performing PUT at /dsswritebench31
+2015-11-07 10:24:54,500 [INFO] [NoneStorage] - performing PUT at /dsswritebench32
+2015-11-07 10:24:55,182 [INFO] [NoneStorage] - performing PUT at /dsswritebench33
+2015-11-07 10:24:55,833 [INFO] [NoneStorage] - performing PUT at /dsswritebench34
+2015-11-07 10:24:56,438 [INFO] [NoneStorage] - performing PUT at /dsswritebench35
+2015-11-07 10:24:56,946 [INFO] [NoneStorage] - performing PUT at /dsswritebench36
+2015-11-07 10:24:57,502 [INFO] [NoneStorage] - performing PUT at /dsswritebench37
+2015-11-07 10:24:58,030 [INFO] [NoneStorage] - performing PUT at /dsswritebench38
+2015-11-07 10:24:58,562 [INFO] [NoneStorage] - performing PUT at /dsswritebench39
+2015-11-07 10:24:59,127 [INFO] [NoneStorage] - performing PUT at /dsswritebench40
+2015-11-07 10:24:59,708 [INFO] [NoneStorage] - performing PUT at /dsswritebench41
+2015-11-07 10:25:00,441 [INFO] [NoneStorage] - performing PUT at /dsswritebench42
+2015-11-07 10:25:00,961 [INFO] [NoneStorage] - performing PUT at /dsswritebench43
+2015-11-07 10:25:01,490 [INFO] [NoneStorage] - performing PUT at /dsswritebench44
+2015-11-07 10:25:01,875 [INFO] [NoneStorage] - performing PUT at /dsswritebench45
+2015-11-07 10:25:02,697 [INFO] [NoneStorage] - performing PUT at /dsswritebench46
+2015-11-07 10:25:03,238 [INFO] [NoneStorage] - performing PUT at /dsswritebench47
+2015-11-07 10:25:03,899 [INFO] [NoneStorage] - performing PUT at /dsswritebench48
+2015-11-07 10:25:04,532 [INFO] [NoneStorage] - performing PUT at /dsswritebench49
+2015-11-07 10:25:05,303 [INFO] [NoneStorage] - performing PUT at /dsswritebench50
+2015-11-07 10:25:05,926 [INFO] [NoneStorage] - performing PUT at /dsswritebench51
+2015-11-07 10:25:06,544 [INFO] [NoneStorage] - performing PUT at /dsswritebench52
+2015-11-07 10:25:07,146 [INFO] [NoneStorage] - performing PUT at /dsswritebench53
+2015-11-07 10:25:07,782 [INFO] [NoneStorage] - performing PUT at /dsswritebench54
+2015-11-07 10:25:08,803 [INFO] [NoneStorage] - performing PUT at /dsswritebench55
+2015-11-07 10:25:09,524 [INFO] [NoneStorage] - performing PUT at /dsswritebench56
+2015-11-07 10:25:10,095 [INFO] [NoneStorage] - performing PUT at /dsswritebench57
+2015-11-07 10:25:10,924 [INFO] [NoneStorage] - performing PUT at /dsswritebench58
+2015-11-07 10:25:11,443 [INFO] [NoneStorage] - performing PUT at /dsswritebench59
+2015-11-07 10:25:12,155 [INFO] [NoneStorage] - performing PUT at /dsswritebench60
+2015-11-07 10:25:12,680 [INFO] [NoneStorage] - performing PUT at /dsswritebench61
+2015-11-07 10:25:13,222 [INFO] [NoneStorage] - performing PUT at /dsswritebench62
+2015-11-07 10:25:13,744 [INFO] [NoneStorage] - performing PUT at /dsswritebench63
+2015-11-07 10:25:14,231 [INFO] [NoneStorage] - performing PUT at /dsswritebench64
+2015-11-07 10:25:14,755 [INFO] [NoneStorage] - performing PUT at /dsswritebench65
+2015-11-07 10:25:15,383 [INFO] [NoneStorage] - performing PUT at /dsswritebench66
+2015-11-07 10:25:15,967 [INFO] [NoneStorage] - performing PUT at /dsswritebench67
+2015-11-07 10:25:16,578 [INFO] [NoneStorage] - performing PUT at /dsswritebench68
+2015-11-07 10:25:16,929 [INFO] [NoneStorage] - performing PUT at /dsswritebench69
+2015-11-07 10:25:17,480 [INFO] [NoneStorage] - performing PUT at /dsswritebench70
+2015-11-07 10:25:17,998 [INFO] [NoneStorage] - performing PUT at /dsswritebench71
+2015-11-07 10:25:18,666 [INFO] [NoneStorage] - performing PUT at /dsswritebench72
+2015-11-07 10:25:19,180 [INFO] [NoneStorage] - performing PUT at /dsswritebench73
+2015-11-07 10:25:19,688 [INFO] [NoneStorage] - performing PUT at /dsswritebench74
+2015-11-07 10:25:20,076 [INFO] [NoneStorage] - performing PUT at /dsswritebench75
+2015-11-07 10:25:20,620 [INFO] [NoneStorage] - performing PUT at /dsswritebench76
+2015-11-07 10:25:21,148 [INFO] [NoneStorage] - performing PUT at /dsswritebench77
+2015-11-07 10:25:21,702 [INFO] [NoneStorage] - performing PUT at /dsswritebench78
+2015-11-07 10:25:22,261 [INFO] [NoneStorage] - performing PUT at /dsswritebench79
+2015-11-07 10:25:22,704 [INFO] [NoneStorage] - performing PUT at /dsswritebench80
+2015-11-07 10:25:23,073 [INFO] [NoneStorage] - performing PUT at /dsswritebench81
+2015-11-07 10:25:23,469 [INFO] [NoneStorage] - performing PUT at /dsswritebench82
+2015-11-07 10:25:23,978 [INFO] [NoneStorage] - performing PUT at /dsswritebench83
+2015-11-07 10:25:24,483 [INFO] [NoneStorage] - performing PUT at /dsswritebench84
+2015-11-07 10:25:25,756 [INFO] [NoneStorage] - performing PUT at /dsswritebench85
+2015-11-07 10:25:26,351 [INFO] [NoneStorage] - performing PUT at /dsswritebench86
+2015-11-07 10:25:26,834 [INFO] [NoneStorage] - performing PUT at /dsswritebench87
+2015-11-07 10:25:27,306 [INFO] [NoneStorage] - performing PUT at /dsswritebench88
+2015-11-07 10:25:27,815 [INFO] [NoneStorage] - performing PUT at /dsswritebench89
+2015-11-07 10:25:28,322 [INFO] [NoneStorage] - performing PUT at /dsswritebench90
+2015-11-07 10:25:28,863 [INFO] [NoneStorage] - performing PUT at /dsswritebench91
+2015-11-07 10:25:29,393 [INFO] [NoneStorage] - performing PUT at /dsswritebench92
+2015-11-07 10:25:29,798 [INFO] [NoneStorage] - performing PUT at /dsswritebench93
+2015-11-07 10:25:30,430 [INFO] [NoneStorage] - performing PUT at /dsswritebench94
+2015-11-07 10:25:30,973 [INFO] [NoneStorage] - performing PUT at /dsswritebench95
+2015-11-07 10:25:31,490 [INFO] [NoneStorage] - performing PUT at /dsswritebench96
+2015-11-07 10:25:31,866 [INFO] [NoneStorage] - performing PUT at /dsswritebench97
+2015-11-07 10:25:31,922 [ERROR] [AbstractOperator] - worker 1 fail to perform operation dsswritebench97
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 400, AWS Service: Amazon S3, AWS Request ID: 9EAED66C0BF51371, AWS Error Code: TooManyBuckets, AWS Error Message: You have attempted to create more buckets than allowed, S3 Extended Request ID: C5kH6y0J9ZLmft8Pow2yRETNgGankS/5k8JJ5lKK9wxycK7eOxwOVGyWTtmvHfWLIq3+2LknzHE=
+	at com.intel.cosbench.api.S3Stor.S3Storage.createContainer(S3Storage.java:111)
+	at com.intel.cosbench.driver.operator.Preparer.doInit(Preparer.java:113)
+	at com.intel.cosbench.driver.operator.Preparer.operate(Preparer.java:87)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Initializer.operate(Initializer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 400, AWS Service: Amazon S3, AWS Request ID: 9EAED66C0BF51371, AWS Error Code: TooManyBuckets, AWS Error Message: You have attempted to create more buckets than allowed, S3 Extended Request ID: C5kH6y0J9ZLmft8Pow2yRETNgGankS/5k8JJ5lKK9wxycK7eOxwOVGyWTtmvHfWLIq3+2LknzHE=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:642)
+	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:564)
+	at com.intel.cosbench.api.S3Stor.S3Storage.createContainer(S3Storage.java:108)
+	... 13 more
+================================================== stage: s2-1k-1t ==================================================
+================================================== stage: s3-1k-4t ==================================================
+================================================== stage: s4-1k-16t ==================================================
+================================================== stage: s5-1k-32t ==================================================
+================================================== stage: s6-1k-64t ==================================================
+================================================== stage: s7-1k-128t ==================================================
+================================================== stage: s8-64k-1t ==================================================
+================================================== stage: s9-64k-4t ==================================================
+================================================== stage: s10-64k-16t ==================================================
+================================================== stage: s11-64k-32t ==================================================
+================================================== stage: s12-64k-64t ==================================================
+================================================== stage: s13-64k-128t ==================================================
+================================================== stage: s14-1m-1t ==================================================
+================================================== stage: s15-1m-4t ==================================================
+================================================== stage: s16-1m-16t ==================================================
+================================================== stage: s17-1m-32t ==================================================
+================================================== stage: s18-1m-64t ==================================================
+================================================== stage: s19-1m-128t ==================================================
+================================================== stage: s20-16m-1t ==================================================
+================================================== stage: s21-16m-4t ==================================================
+================================================== stage: s22-16m-16t ==================================================
+================================================== stage: s23-16m-32t ==================================================
+================================================== stage: s24-16m-64t ==================================================
+================================================== stage: s25-16m-128t ==================================================
+================================================== stage: s26-64m-1t ==================================================
+================================================== stage: s27-64m-4t ==================================================
+================================================== stage: s28-64m-16t ==================================================
+================================================== stage: s29-64m-32t ==================================================
+================================================== stage: s30-64m-64t ==================================================
+================================================== stage: s31-64m-128t ==================================================

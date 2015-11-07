@@ -1,0 +1,682 @@
+================================================== stage: s1-64m-1t-write ==================================================
+---------------------------------- mission: M8E2107CCB6, driver: driver1 ----------------------------------
+2015-11-07 13:09:03,004 [INFO] [Log4jLogManager] - will append log to file /home/ubuntu/cos/log/mission/M8E2107CCB6.log
+2015-11-07 13:09:03,028 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:09:03,030 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/8myobject
+2015-11-07 13:09:03,029 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:09:03,029 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:09:03,029 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:09:03,029 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:09:03,029 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:09:03,029 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:09:06,043 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/9myobject
+2015-11-07 13:09:06,201 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:09:06,233 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:09:06,406 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:09:06,461 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:09:06,520 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/4myobject
+2015-11-07 13:09:06,631 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/5myobject
+2015-11-07 13:09:08,718 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/6myobject
+2015-11-07 13:09:08,986 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:09:09,112 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:09:10,270 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/9myobject
+2015-11-07 13:09:10,955 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:09:11,304 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/1myobject
+2015-11-07 13:09:12,080 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:09:12,175 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:09:12,462 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:09:12,584 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/5myobject
+2015-11-07 13:09:14,625 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/6myobject
+2015-11-07 13:09:14,717 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/7myobject
+2015-11-07 13:09:14,851 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:09:14,978 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/9myobject
+2015-11-07 13:09:15,630 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:09:16,765 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/1myobject
+2015-11-07 13:09:17,182 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:09:17,229 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/3myobject
+2015-11-07 13:09:17,243 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:09:18,429 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:09:19,910 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:09:19,923 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:09:21,099 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:09:21,108 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:09:21,735 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:09:21,875 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/1myobject
+2015-11-07 13:09:22,508 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/2myobject
+2015-11-07 13:09:22,590 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:09:23,338 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:09:23,534 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/5myobject
+2015-11-07 13:09:24,469 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:09:24,684 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:09:26,114 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:09:26,375 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:09:26,777 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:09:26,951 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:09:28,019 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:09:28,347 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:09:29,190 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/4myobject
+2015-11-07 13:09:29,383 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/5myobject
+2015-11-07 13:09:31,059 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/6myobject
+2015-11-07 13:09:31,116 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:09:31,221 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/8myobject
+2015-11-07 13:09:31,521 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:09:32,852 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:09:32,882 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:09:33,218 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:09:33,263 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:09:33,337 [ERROR] [AbstractOperator] - worker 6 fail to perform operation dssreadbench41/3myobject
+com.intel.cosbench.api.storage.StorageException: com.amazonaws.AmazonClientException: Encountered an exception and couldn't reset the stream to retry
+	at com.intel.cosbench.api.S3Stor.S3Storage.createObject(S3Storage.java:126)
+	at com.intel.cosbench.driver.operator.Writer.doWrite(Writer.java:98)
+	at com.intel.cosbench.driver.operator.Writer.operate(Writer.java:79)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.amazonaws.AmazonClientException: Encountered an exception and couldn't reset the stream to retry
+	at com.amazonaws.http.AmazonHttpClient.resetRequestAfterError(AmazonHttpClient.java:400)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:356)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.putObject(AmazonS3Client.java:1149)
+	at com.amazonaws.services.s3.AmazonS3Client.putObject(AmazonS3Client.java:1014)
+	at com.intel.cosbench.api.S3Stor.S3Storage.createObject(S3Storage.java:124)
+	... 12 more
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.write(AbstractSessionOutputBuffer.java:153)
+	at org.apache.http.impl.io.ContentLengthOutputStream.write(ContentLengthOutputStream.java:114)
+	at org.apache.http.entity.InputStreamEntity.writeTo(InputStreamEntity.java:88)
+	at com.amazonaws.http.RepeatableInputStreamRequestEntity.writeTo(RepeatableInputStreamRequestEntity.java:140)
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:96)
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:108)
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:120)
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:263)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.sendRequestEntity(AbstractClientConnAdapter.java:227)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:255)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:633)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:454)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:306)
+	... 17 more
+2015-11-07 13:09:33,338 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/4myobject
+2015-11-07 13:09:33,994 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/5myobject
+2015-11-07 13:09:35,797 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:09:35,809 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/7myobject
+2015-11-07 13:09:36,409 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:09:37,726 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:09:37,748 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:09:38,080 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/1myobject
+2015-11-07 13:09:38,138 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:09:38,172 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/3myobject
+2015-11-07 13:09:38,725 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/4myobject
+2015-11-07 13:09:38,803 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:09:39,022 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/6myobject
+2015-11-07 13:09:40,319 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:09:40,643 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:09:40,653 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:09:41,128 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/10myobject
+2015-11-07 13:09:42,132 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:09:42,209 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:09:42,371 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/3myobject
+2015-11-07 13:09:42,378 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/4myobject
+2015-11-07 13:09:44,528 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/5myobject
+2015-11-07 13:09:44,537 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/6myobject
+2015-11-07 13:09:45,037 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:09:46,376 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/8myobject
+2015-11-07 13:09:46,676 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:09:46,873 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:09:47,345 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:09:47,365 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:09:47,809 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:09:48,143 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/4myobject
+2015-11-07 13:09:49,470 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:09:50,199 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/6myobject
+2015-11-07 13:09:50,343 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:09:50,480 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:09:51,220 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/9myobject
+2015-11-07 13:09:51,882 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/10myobject
+2015-11-07 13:09:51,953 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/1myobject
+2015-11-07 13:09:52,033 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/2myobject
+2015-11-07 13:09:52,118 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/3myobject
+2015-11-07 13:09:52,814 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:09:52,886 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:09:54,221 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/6myobject
+2015-11-07 13:09:54,470 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:09:54,559 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:09:54,864 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:09:55,657 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:09:55,816 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:09:56,960 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:09:57,693 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:09:58,344 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:09:58,869 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/5myobject
+2015-11-07 13:09:58,933 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/6myobject
+2015-11-07 13:09:59,273 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/7myobject
+2015-11-07 13:09:59,905 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:10:00,904 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:10:01,578 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:10:02,057 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/1myobject
+2015-11-07 13:10:02,300 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:10:02,572 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:10:03,777 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:10:04,240 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/5myobject
+2015-11-07 13:10:04,984 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/6myobject
+2015-11-07 13:10:05,040 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:10:05,960 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:10:06,301 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/9myobject
+2015-11-07 13:10:06,370 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:10:06,542 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/1myobject
+2015-11-07 13:10:07,065 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:10:07,230 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/3myobject
+2015-11-07 13:10:07,285 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:10:07,589 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:10:08,884 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/6myobject
+2015-11-07 13:10:08,902 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:10:10,236 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/8myobject
+2015-11-07 13:10:10,305 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/9myobject
+2015-11-07 13:10:10,306 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/10myobject
+2015-11-07 13:10:10,753 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/1myobject
+2015-11-07 13:10:11,001 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:10:11,072 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:10:11,096 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/4myobject
+2015-11-07 13:10:11,657 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/5myobject
+2015-11-07 13:10:12,974 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:10:13,794 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:10:13,944 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:10:14,464 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:10:15,446 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:10:15,878 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:10:15,951 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:10:16,043 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/3myobject
+2015-11-07 13:10:16,429 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:10:16,728 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:10:16,735 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/6myobject
+2015-11-07 13:10:18,220 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:10:19,619 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/8myobject
+2015-11-07 13:10:19,714 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:10:19,734 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/10myobject
+2015-11-07 13:10:20,239 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/1myobject
+2015-11-07 13:10:20,824 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/2myobject
+2015-11-07 13:10:21,562 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/3myobject
+2015-11-07 13:10:21,944 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:10:22,734 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:10:22,945 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:10:24,208 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:10:24,498 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/8myobject
+2015-11-07 13:10:24,771 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:10:25,763 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:10:26,345 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/1myobject
+2015-11-07 13:10:26,439 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/2myobject
+2015-11-07 13:10:27,021 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/3myobject
+2015-11-07 13:10:27,453 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:10:27,471 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:10:27,742 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:10:28,741 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:10:28,823 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:10:29,000 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/9myobject
+2015-11-07 13:10:29,009 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/10myobject
+2015-11-07 13:10:29,645 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/1myobject
+2015-11-07 13:10:30,843 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:10:31,171 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:10:31,259 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/4myobject
+2015-11-07 13:10:31,322 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/5myobject
+2015-11-07 13:10:31,990 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/6myobject
+2015-11-07 13:10:32,278 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:10:32,653 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/8myobject
+2015-11-07 13:10:32,817 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/9myobject
+2015-11-07 13:10:33,123 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:10:33,724 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/1myobject
+2015-11-07 13:10:35,128 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:10:35,198 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:10:36,151 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/4myobject
+2015-11-07 13:10:36,281 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/5myobject
+2015-11-07 13:10:36,523 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:10:36,937 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:10:37,284 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/8myobject
+2015-11-07 13:10:37,344 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:10:38,658 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:10:38,698 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/1myobject
+2015-11-07 13:10:39,110 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:10:40,672 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:10:40,680 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/4myobject
+2015-11-07 13:10:41,160 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/5myobject
+2015-11-07 13:10:41,238 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:10:41,981 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/7myobject
+2015-11-07 13:10:42,228 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:10:42,536 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:10:43,621 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:10:45,001 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:10:45,847 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/2myobject
+2015-11-07 13:10:45,877 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:10:45,891 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/4myobject
+2015-11-07 13:10:45,914 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:10:45,985 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:10:46,710 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/7myobject
+2015-11-07 13:10:47,153 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:10:48,227 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/9myobject
+2015-11-07 13:10:48,567 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:10:48,633 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:10:48,710 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:10:48,821 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:10:49,141 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/4myobject
+2015-11-07 13:10:49,189 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:10:50,946 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:10:51,028 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:10:51,028 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:10:51,231 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:10:51,796 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:10:53,825 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/1myobject
+2015-11-07 13:10:53,860 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:10:53,897 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:10:54,043 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:10:54,447 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/5myobject
+2015-11-07 13:10:54,755 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:10:55,421 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:10:56,085 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:10:58,195 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:10:58,291 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:10:58,301 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/1myobject
+2015-11-07 13:10:58,353 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/2myobject
+2015-11-07 13:10:58,676 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:10:59,538 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/4myobject
+2015-11-07 13:10:59,695 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/5myobject
+2015-11-07 13:10:59,710 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:11:00,209 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/7myobject
+2015-11-07 13:11:00,399 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:11:02,091 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:11:02,195 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/10myobject
+2015-11-07 13:11:02,614 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:11:03,144 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:11:03,708 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:11:05,217 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:11:05,253 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:11:05,558 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/6myobject
+2015-11-07 13:11:06,173 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/7myobject
+2015-11-07 13:11:06,882 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:11:08,152 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:11:08,156 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/10myobject
+2015-11-07 13:11:09,102 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/1myobject
+2015-11-07 13:11:09,178 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:11:09,260 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:11:09,327 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:11:10,151 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:11:10,322 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:11:10,329 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:11:10,437 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/8myobject
+2015-11-07 13:11:10,526 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:11:10,552 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:11:10,751 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:11:12,548 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:11:13,245 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:11:13,349 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/4myobject
+2015-11-07 13:11:14,318 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:11:15,155 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:11:15,511 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/7myobject
+2015-11-07 13:11:15,659 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:11:16,749 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/9myobject
+2015-11-07 13:11:16,936 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/10myobject
+2015-11-07 13:11:16,991 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:11:17,637 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/2myobject
+2015-11-07 13:11:17,789 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:11:17,980 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:11:18,356 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/5myobject
+2015-11-07 13:11:18,418 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:11:19,143 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:11:19,553 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:11:20,383 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:11:20,749 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/10myobject
+2015-11-07 13:11:22,044 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/1myobject
+2015-11-07 13:11:22,464 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/2myobject
+2015-11-07 13:11:22,668 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/3myobject
+2015-11-07 13:11:22,726 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:11:22,992 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/5myobject
+2015-11-07 13:11:23,042 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:11:23,280 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:11:24,650 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:11:25,122 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:11:25,975 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:11:26,449 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/1myobject
+2015-11-07 13:11:27,498 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:11:28,176 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:11:28,670 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/4myobject
+2015-11-07 13:11:28,973 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:11:28,989 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/6myobject
+2015-11-07 13:11:29,525 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/7myobject
+2015-11-07 13:11:30,551 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/8myobject
+2015-11-07 13:11:30,768 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:11:30,832 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:11:31,566 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/1myobject
+2015-11-07 13:11:31,678 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:11:32,256 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:11:32,377 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/4myobject
+2015-11-07 13:11:33,001 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:11:33,731 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/6myobject
+2015-11-07 13:11:34,399 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:11:34,846 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:11:35,110 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:11:35,837 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:11:36,623 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:11:36,728 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:11:36,767 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/3myobject
+2015-11-07 13:11:38,245 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:11:38,579 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:11:38,939 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:11:39,576 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:11:40,298 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/8myobject
+2015-11-07 13:11:40,312 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/9myobject
+2015-11-07 13:11:41,162 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:11:41,428 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:11:42,209 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/2myobject
+2015-11-07 13:11:42,253 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:11:43,696 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:11:43,840 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:11:44,708 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:11:44,793 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:11:44,822 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/8myobject
+2015-11-07 13:11:44,875 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/9myobject
+2015-11-07 13:11:46,499 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:11:46,577 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:11:46,665 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/2myobject
+2015-11-07 13:11:47,063 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:11:47,897 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/4myobject
+2015-11-07 13:11:48,090 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/5myobject
+2015-11-07 13:11:48,126 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/6myobject
+2015-11-07 13:11:49,128 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/7myobject
+2015-11-07 13:11:50,059 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/8myobject
+2015-11-07 13:11:50,290 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/9myobject
+2015-11-07 13:11:50,309 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:11:52,563 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/1myobject
+2015-11-07 13:11:52,643 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:11:52,762 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/3myobject
+2015-11-07 13:11:53,402 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/4myobject
+2015-11-07 13:11:53,642 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:11:53,706 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:11:54,159 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/7myobject
+2015-11-07 13:11:54,318 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:11:55,159 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:11:55,854 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:11:56,858 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/1myobject
+2015-11-07 13:11:57,215 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:11:57,357 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/3myobject
+2015-11-07 13:11:58,160 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:11:58,219 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/5myobject
+2015-11-07 13:11:59,087 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:11:59,946 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:12:00,121 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/8myobject
+2015-11-07 13:12:00,488 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/9myobject
+2015-11-07 13:12:01,124 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:12:01,726 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/1myobject
+2015-11-07 13:12:03,158 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/2myobject
+2015-11-07 13:12:03,180 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:12:03,518 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/4myobject
+2015-11-07 13:12:03,659 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:12:04,038 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:12:05,261 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/7myobject
+2015-11-07 13:12:05,442 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:12:06,230 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:12:06,339 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:12:07,973 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/1myobject
+2015-11-07 13:12:08,178 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:12:08,261 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/3myobject
+2015-11-07 13:12:08,382 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:12:09,378 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/5myobject
+2015-11-07 13:12:10,238 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/6myobject
+2015-11-07 13:12:10,702 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:12:11,411 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:12:11,876 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:12:12,068 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:12:13,342 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:12:14,008 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:12:14,227 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/3myobject
+2015-11-07 13:12:14,926 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:12:14,997 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:12:16,027 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:12:16,030 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:12:16,095 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/8myobject
+2015-11-07 13:12:16,581 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:12:18,002 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/10myobject
+2015-11-07 13:12:18,534 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:12:18,831 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:12:19,023 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:12:19,714 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/4myobject
+2015-11-07 13:12:19,730 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:12:19,835 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:12:21,433 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:12:22,097 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:12:22,170 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/9myobject
+2015-11-07 13:12:22,470 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:12:22,582 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/1myobject
+2015-11-07 13:12:22,621 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/2myobject
+2015-11-07 13:12:23,482 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:12:23,500 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:12:24,429 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:12:25,534 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:12:25,919 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/7myobject
+2015-11-07 13:12:26,209 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:12:26,691 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/9myobject
+2015-11-07 13:12:27,543 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:12:28,304 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/1myobject
+2015-11-07 13:12:28,784 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:12:29,001 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:12:29,121 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/4myobject
+2015-11-07 13:12:29,959 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:12:30,093 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:12:31,430 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:12:31,663 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/8myobject
+2015-11-07 13:12:31,806 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:12:32,720 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/10myobject
+2015-11-07 13:12:32,949 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:12:33,431 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:12:34,260 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/3myobject
+2015-11-07 13:12:34,444 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/4myobject
+2015-11-07 13:12:35,746 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/5myobject
+2015-11-07 13:12:35,858 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:12:36,154 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:12:36,494 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:12:38,171 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/9myobject
+2015-11-07 13:12:38,513 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:12:38,552 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/1myobject
+2015-11-07 13:12:38,758 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:12:38,811 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/3myobject
+2015-11-07 13:12:40,541 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/4myobject
+2015-11-07 13:12:40,623 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:12:40,729 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/6myobject
+2015-11-07 13:12:41,009 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/7myobject
+2015-11-07 13:12:41,948 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:12:42,101 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:12:42,120 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/10myobject
+2015-11-07 13:12:43,681 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:12:44,154 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:12:44,180 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:12:45,427 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:12:45,664 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:12:45,762 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:12:45,866 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/7myobject
+2015-11-07 13:12:47,303 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:12:47,696 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/9myobject
+2015-11-07 13:12:47,852 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/10myobject
+2015-11-07 13:12:49,110 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/1myobject
+2015-11-07 13:12:49,166 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:12:49,752 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:12:49,800 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:12:50,807 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:12:51,597 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/6myobject
+2015-11-07 13:12:51,728 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:12:51,804 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:12:52,302 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:12:52,491 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/10myobject
+2015-11-07 13:12:52,875 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/1myobject
+2015-11-07 13:12:53,558 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:12:54,554 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/3myobject
+2015-11-07 13:12:54,747 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:12:55,151 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/5myobject
+2015-11-07 13:12:55,214 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/6myobject
+2015-11-07 13:12:55,849 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/7myobject
+2015-11-07 13:12:55,951 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/8myobject
+2015-11-07 13:12:57,323 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:12:57,540 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:12:57,617 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/1myobject
+2015-11-07 13:12:58,729 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/2myobject
+2015-11-07 13:12:58,801 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:12:59,376 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/4myobject
+2015-11-07 13:13:00,038 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:13:00,204 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/6myobject
+2015-11-07 13:13:01,252 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/7myobject
+2015-11-07 13:13:01,310 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:13:01,902 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/9myobject
+2015-11-07 13:13:02,774 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/10myobject
+2015-11-07 13:13:03,645 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/1myobject
+2015-11-07 13:13:03,750 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/2myobject
+2015-11-07 13:13:03,824 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/3myobject
+2015-11-07 13:13:04,401 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/4myobject
+2015-11-07 13:13:04,540 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/5myobject
+2015-11-07 13:13:05,724 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:13:06,256 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/7myobject
+2015-11-07 13:13:06,335 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:13:06,500 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:13:07,574 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:13:08,264 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/1myobject
+2015-11-07 13:13:08,346 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:13:08,909 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/3myobject
+2015-11-07 13:13:09,391 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:13:09,830 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:13:10,042 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/6myobject
+2015-11-07 13:13:10,650 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/7myobject
+2015-11-07 13:13:10,653 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/8myobject
+2015-11-07 13:13:11,481 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/9myobject
+2015-11-07 13:13:12,075 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:13:13,662 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:13:13,775 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/2myobject
+2015-11-07 13:13:13,790 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/3myobject
+2015-11-07 13:13:13,841 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:13:13,890 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/5myobject
+2015-11-07 13:13:14,044 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:13:15,989 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:13:16,555 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:13:16,574 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/9myobject
+2015-11-07 13:13:16,734 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:13:16,906 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/1myobject
+2015-11-07 13:13:17,998 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:13:18,453 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:13:19,619 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:13:19,674 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/5myobject
+2015-11-07 13:13:19,992 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:13:20,556 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/7myobject
+2015-11-07 13:13:21,316 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:13:22,578 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:13:22,642 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:13:22,715 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/1myobject
+2015-11-07 13:13:22,746 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:13:23,781 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/3myobject
+2015-11-07 13:13:24,960 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/4myobject
+2015-11-07 13:13:25,405 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:13:25,835 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:13:26,693 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/7myobject
+2015-11-07 13:13:26,901 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/8myobject
+2015-11-07 13:13:27,157 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/9myobject
+2015-11-07 13:13:27,379 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:13:28,367 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/1myobject
+2015-11-07 13:13:28,688 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/2myobject
+2015-11-07 13:13:29,086 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/3myobject
+2015-11-07 13:13:29,784 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/4myobject
+2015-11-07 13:13:30,443 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:13:30,514 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/6myobject
+2015-11-07 13:13:31,961 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/7myobject
+2015-11-07 13:13:32,186 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/8myobject
+2015-11-07 13:13:32,852 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/9myobject
+2015-11-07 13:13:33,474 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/10myobject
+2015-11-07 13:13:33,841 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/1myobject
+2015-11-07 13:13:33,956 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/2myobject
+2015-11-07 13:13:34,019 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/3myobject
+2015-11-07 13:13:36,057 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/4myobject
+2015-11-07 13:13:36,156 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/5myobject
+2015-11-07 13:13:36,268 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/6myobject
+2015-11-07 13:13:36,502 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:13:37,082 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:13:37,320 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/9myobject
+2015-11-07 13:13:38,186 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/10myobject
+2015-11-07 13:13:38,969 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/1myobject
+2015-11-07 13:13:39,312 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:13:39,711 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/3myobject
+2015-11-07 13:13:39,727 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/4myobject
+2015-11-07 13:13:41,266 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/5myobject
+2015-11-07 13:13:41,345 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/6myobject
+2015-11-07 13:13:41,725 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/7myobject
+2015-11-07 13:13:42,483 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:13:42,551 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/9myobject
+2015-11-07 13:13:43,664 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/10myobject
+2015-11-07 13:13:44,163 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:13:45,050 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/2myobject
+2015-11-07 13:13:45,120 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/3myobject
+2015-11-07 13:13:45,455 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/4myobject
+2015-11-07 13:13:46,100 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/5myobject
+2015-11-07 13:13:46,148 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:13:46,204 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/7myobject
+2015-11-07 13:13:46,207 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:13:47,330 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/9myobject
+2015-11-07 13:13:47,468 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/10myobject
+2015-11-07 13:13:48,491 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/1myobject
+2015-11-07 13:13:49,277 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/2myobject
+2015-11-07 13:13:49,459 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:13:50,279 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/4myobject
+2015-11-07 13:13:50,397 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/5myobject
+2015-11-07 13:13:50,435 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/6myobject
+2015-11-07 13:13:52,292 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/7myobject
+2015-11-07 13:13:52,327 [INFO] [NoneStorage] - performing PUT at /dssreadbench46/8myobject
+2015-11-07 13:13:52,759 [INFO] [NoneStorage] - performing PUT at /dssreadbench49/9myobject
+2015-11-07 13:13:53,152 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/10myobject
+2015-11-07 13:13:53,239 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/1myobject
+2015-11-07 13:13:53,300 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:13:55,345 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/3myobject
+2015-11-07 13:13:55,393 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/4myobject
+2015-11-07 13:13:55,541 [INFO] [NoneStorage] - performing PUT at /dssreadbench44/5myobject
+2015-11-07 13:13:56,092 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/6myobject
+2015-11-07 13:13:56,714 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/7myobject
+2015-11-07 13:13:57,342 [INFO] [NoneStorage] - performing PUT at /dssreadbench42/8myobject
+2015-11-07 13:13:57,442 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/9myobject
+2015-11-07 13:13:57,728 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/10myobject
+2015-11-07 13:13:59,370 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/1myobject
+2015-11-07 13:13:59,683 [INFO] [NoneStorage] - performing PUT at /dssreadbench43/2myobject
+2015-11-07 13:13:59,689 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/3myobject
+2015-11-07 13:13:59,978 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/4myobject
+2015-11-07 13:14:01,240 [INFO] [NoneStorage] - performing PUT at /dssreadbench47/5myobject
+2015-11-07 13:14:01,265 [INFO] [NoneStorage] - performing PUT at /dssreadbench50/6myobject
+2015-11-07 13:14:01,612 [INFO] [NoneStorage] - performing PUT at /dssreadbench48/7myobject
+2015-11-07 13:14:02,475 [INFO] [NoneStorage] - performing PUT at /dssreadbench45/8myobject
+2015-11-07 13:14:02,614 [INFO] [NoneStorage] - performing PUT at /dssreadbench41/9myobject
+2015-11-07 13:27:02,850 [ERROR] [AbstractOperator] - worker 8 fail to perform operation dssreadbench47/1myobject
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 403, AWS Service: Amazon S3, AWS Request ID: 7B6339B5C4E2FA9B, AWS Error Code: RequestTimeTooSkewed, AWS Error Message: The difference between the request time and the current time is too large., S3 Extended Request ID: e5A2w+4terGLg3cHJSEo7GafPAdEQjetfAMa+/uQ7zxqlzHTLbfbDXxUSNLUPqxWAt1zWtFXYJk=
+	at com.intel.cosbench.api.S3Stor.S3Storage.createObject(S3Storage.java:126)
+	at com.intel.cosbench.driver.operator.Writer.doWrite(Writer.java:98)
+	at com.intel.cosbench.driver.operator.Writer.operate(Writer.java:79)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 403, AWS Service: Amazon S3, AWS Request ID: 7B6339B5C4E2FA9B, AWS Error Code: RequestTimeTooSkewed, AWS Error Message: The difference between the request time and the current time is too large., S3 Extended Request ID: e5A2w+4terGLg3cHJSEo7GafPAdEQjetfAMa+/uQ7zxqlzHTLbfbDXxUSNLUPqxWAt1zWtFXYJk=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.putObject(AmazonS3Client.java:1149)
+	at com.amazonaws.services.s3.AmazonS3Client.putObject(AmazonS3Client.java:1014)
+	at com.intel.cosbench.api.S3Stor.S3Storage.createObject(S3Storage.java:124)
+	... 12 more

@@ -1,0 +1,1603 @@
+================================================== stage: s1-dispose ==================================================
+---------------------------------- mission: MAE1BD4DEBC, driver: driver1 ----------------------------------
+2015-11-07 11:38:11,005 [INFO] [Log4jLogManager] - will append log to file /home/ubuntu/cos/log/mission/MAE1BD4DEBC.log
+2015-11-07 11:38:11,015 [INFO] [NoneStorage] - performing DELETE at /dsswritebench1
+2015-11-07 11:38:11,181 [ERROR] [AbstractOperator] - Error deleting container dsswritebench1
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 26472CFB22F7A20E, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: SmicHTGAxMdhdMKl9ApoI1ko460G+cZ5+DaliXIOxdoZQf3NmNaWhHDDXAJBd6YxJd4g+6AOiEg=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 26472CFB22F7A20E, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: SmicHTGAxMdhdMKl9ApoI1ko460G+cZ5+DaliXIOxdoZQf3NmNaWhHDDXAJBd6YxJd4g+6AOiEg=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,182 [INFO] [NoneStorage] - performing DELETE at /dsswritebench2
+2015-11-07 11:38:11,276 [ERROR] [AbstractOperator] - Error deleting container dsswritebench2
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 3C826ECE83A0CED8, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Hh1l6ghOGNvrNonALuF3uPpTx1+H/qVGkPFDLR3oN38+Z7fuL3lunRTG+j/03eNWDMWKIfwAqhI=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 3C826ECE83A0CED8, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Hh1l6ghOGNvrNonALuF3uPpTx1+H/qVGkPFDLR3oN38+Z7fuL3lunRTG+j/03eNWDMWKIfwAqhI=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,276 [INFO] [NoneStorage] - performing DELETE at /dsswritebench3
+2015-11-07 11:38:11,346 [ERROR] [AbstractOperator] - Error deleting container dsswritebench3
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: BA396A3B59C404F5, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: BwUVFEVjztBz98O+z0kIDUR2tfeZHz1x7yqpGPX6NaFt/uR+3fGHupjTFxM18el0VXFQBCOmg7Q=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: BA396A3B59C404F5, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: BwUVFEVjztBz98O+z0kIDUR2tfeZHz1x7yqpGPX6NaFt/uR+3fGHupjTFxM18el0VXFQBCOmg7Q=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,346 [INFO] [NoneStorage] - performing DELETE at /dsswritebench4
+2015-11-07 11:38:11,422 [ERROR] [AbstractOperator] - Error deleting container dsswritebench4
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D4FB9863FBD22DE5, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: On1/LZSQyEIUHTFHVyyPtr6JOFtbdUBaTeNpoOJacX0CeHP3LM0c9kYseFQgCrWmpyRBr2GkNTQ=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D4FB9863FBD22DE5, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: On1/LZSQyEIUHTFHVyyPtr6JOFtbdUBaTeNpoOJacX0CeHP3LM0c9kYseFQgCrWmpyRBr2GkNTQ=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,422 [INFO] [NoneStorage] - performing DELETE at /dsswritebench5
+2015-11-07 11:38:11,521 [ERROR] [AbstractOperator] - Error deleting container dsswritebench5
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 443BA6B06D9B1F5D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: +VQCpmfLATQqFDKg9fHDdqHqAJTErOYZtX4neUB1gLPGqmU/5ww5IfG3sSDL2P2WsJ6flNJtUxs=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 443BA6B06D9B1F5D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: +VQCpmfLATQqFDKg9fHDdqHqAJTErOYZtX4neUB1gLPGqmU/5ww5IfG3sSDL2P2WsJ6flNJtUxs=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,522 [INFO] [NoneStorage] - performing DELETE at /dsswritebench6
+2015-11-07 11:38:11,595 [ERROR] [AbstractOperator] - Error deleting container dsswritebench6
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 930B637ADBB54D8A, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: DkLifL/viy0FP+RzJrhNKCV45Q4BjlBN7XNlIrSVj7np8IOmhxX6J7t10hMttrr2ORWbfkwVYw8=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 930B637ADBB54D8A, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: DkLifL/viy0FP+RzJrhNKCV45Q4BjlBN7XNlIrSVj7np8IOmhxX6J7t10hMttrr2ORWbfkwVYw8=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,595 [INFO] [NoneStorage] - performing DELETE at /dsswritebench7
+2015-11-07 11:38:11,678 [ERROR] [AbstractOperator] - Error deleting container dsswritebench7
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 703B8E5BB19FF634, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 9owihVXD5HewhWLW33cKXu8/AODlVGXmutOQ0BTaXzycCVBxfTkPptT32f7IgkA4XyZJjSh5gLE=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 703B8E5BB19FF634, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 9owihVXD5HewhWLW33cKXu8/AODlVGXmutOQ0BTaXzycCVBxfTkPptT32f7IgkA4XyZJjSh5gLE=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,678 [INFO] [NoneStorage] - performing DELETE at /dsswritebench8
+2015-11-07 11:38:11,755 [ERROR] [AbstractOperator] - Error deleting container dsswritebench8
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2E6794821CF0BF52, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 808lHtJnv54ZgTsifH4n3OupI7QtifBuIwod7OTL4nlqUxTPM8YYUSQTIYpqfh9dSJH22QQPaFs=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2E6794821CF0BF52, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 808lHtJnv54ZgTsifH4n3OupI7QtifBuIwod7OTL4nlqUxTPM8YYUSQTIYpqfh9dSJH22QQPaFs=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,755 [INFO] [NoneStorage] - performing DELETE at /dsswritebench9
+2015-11-07 11:38:11,818 [ERROR] [AbstractOperator] - Error deleting container dsswritebench9
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: DF22FD98B2D2098A, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: v1KDgBtvnRnevUYlYPRxARYwzt2eLwCbaCan5s3QuyJJGEL0Ya1iSQ2DCO3hEj47Z/hoHaMKFCQ=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: DF22FD98B2D2098A, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: v1KDgBtvnRnevUYlYPRxARYwzt2eLwCbaCan5s3QuyJJGEL0Ya1iSQ2DCO3hEj47Z/hoHaMKFCQ=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,819 [INFO] [NoneStorage] - performing DELETE at /dsswritebench10
+2015-11-07 11:38:11,888 [ERROR] [AbstractOperator] - Error deleting container dsswritebench10
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: EB22A6AF90E43727, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 4wIFWNR24eUc6aPzh6cuc8K8nyYttpQh1KtKiZ/9SgTV5f8ruT+1xqCt+7YKR9PR9xpm9vglmu0=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: EB22A6AF90E43727, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 4wIFWNR24eUc6aPzh6cuc8K8nyYttpQh1KtKiZ/9SgTV5f8ruT+1xqCt+7YKR9PR9xpm9vglmu0=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,889 [INFO] [NoneStorage] - performing DELETE at /dsswritebench11
+2015-11-07 11:38:11,960 [ERROR] [AbstractOperator] - Error deleting container dsswritebench11
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 070D4C68F99E70D7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: KdcNWcuYxnQsze5GZgttmJPoHIjSz0lArvnfQ9oeUeM0ZxZMc3MucypmlJR5W8EY5Qif9UENoXM=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 070D4C68F99E70D7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: KdcNWcuYxnQsze5GZgttmJPoHIjSz0lArvnfQ9oeUeM0ZxZMc3MucypmlJR5W8EY5Qif9UENoXM=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:11,960 [INFO] [NoneStorage] - performing DELETE at /dsswritebench12
+2015-11-07 11:38:12,026 [ERROR] [AbstractOperator] - Error deleting container dsswritebench12
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D4E950E9A441FD2D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: gb5Wn3ZkoJ3un5LWFJihW4i9PmZDa54ubIiFtOIfDsIRJbvWbyvcfuZRjQZu4Guf8NliddOcuMg=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D4E950E9A441FD2D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: gb5Wn3ZkoJ3un5LWFJihW4i9PmZDa54ubIiFtOIfDsIRJbvWbyvcfuZRjQZu4Guf8NliddOcuMg=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,026 [INFO] [NoneStorage] - performing DELETE at /dsswritebench13
+2015-11-07 11:38:12,087 [ERROR] [AbstractOperator] - Error deleting container dsswritebench13
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 98863CA561392FC9, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: HL1tJmhxBXyhnn4R0aUAwPTSVRwWMWRouOYDIXFFOjiZarZFu7F6B4jf3oks+spXbAUuWG+hR04=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 98863CA561392FC9, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: HL1tJmhxBXyhnn4R0aUAwPTSVRwWMWRouOYDIXFFOjiZarZFu7F6B4jf3oks+spXbAUuWG+hR04=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,087 [INFO] [NoneStorage] - performing DELETE at /dsswritebench14
+2015-11-07 11:38:12,155 [ERROR] [AbstractOperator] - Error deleting container dsswritebench14
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D1F760000B7E3940, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: vB5ipn9cMd6adJcXcBtm0nYhDtW4vFMcvUJqYlPJqJEofLjA9DDSN0btZNStOllPduzcDoVfe2k=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D1F760000B7E3940, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: vB5ipn9cMd6adJcXcBtm0nYhDtW4vFMcvUJqYlPJqJEofLjA9DDSN0btZNStOllPduzcDoVfe2k=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,155 [INFO] [NoneStorage] - performing DELETE at /dsswritebench15
+2015-11-07 11:38:12,304 [ERROR] [AbstractOperator] - Error deleting container dsswritebench15
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2C6449424603B08B, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Njh4narXyoXUSfKSS5nVOEr/lM1qyMTg2lvbqFYOM7ajfV/A3JuLPAH59wX3zBfHYM2U6oTv9oA=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2C6449424603B08B, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Njh4narXyoXUSfKSS5nVOEr/lM1qyMTg2lvbqFYOM7ajfV/A3JuLPAH59wX3zBfHYM2U6oTv9oA=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,304 [INFO] [NoneStorage] - performing DELETE at /dsswritebench16
+2015-11-07 11:38:12,361 [ERROR] [AbstractOperator] - Error deleting container dsswritebench16
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: BAD7B53F710299E1, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: SV5m8zvg+EheJ21zR4HA9NjYaKU3crwyEtbA6pM39d3Rda7c0/1tLee8lBq/ei+X+LHBdoqZT8c=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: BAD7B53F710299E1, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: SV5m8zvg+EheJ21zR4HA9NjYaKU3crwyEtbA6pM39d3Rda7c0/1tLee8lBq/ei+X+LHBdoqZT8c=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,361 [INFO] [NoneStorage] - performing DELETE at /dsswritebench17
+2015-11-07 11:38:12,446 [ERROR] [AbstractOperator] - Error deleting container dsswritebench17
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 4BBF1D09DDA3D065, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: HApIJ8Nd9QrZ+aVgE8u40fW7tSVi1DBxqpC4iOfqpK8JRMF0J7vDf36TEZuHyDVBfQneJqYGtlE=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 4BBF1D09DDA3D065, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: HApIJ8Nd9QrZ+aVgE8u40fW7tSVi1DBxqpC4iOfqpK8JRMF0J7vDf36TEZuHyDVBfQneJqYGtlE=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,446 [INFO] [NoneStorage] - performing DELETE at /dsswritebench18
+2015-11-07 11:38:12,526 [ERROR] [AbstractOperator] - Error deleting container dsswritebench18
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 8B95B95848C11F6F, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 1lc5jgayx6Wt2X/aGXpgV+5erUBztHkVRGBoP82Jm2WFOJpKxE6DF8p6rEOjxJrmqVTpVnIttlk=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 8B95B95848C11F6F, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 1lc5jgayx6Wt2X/aGXpgV+5erUBztHkVRGBoP82Jm2WFOJpKxE6DF8p6rEOjxJrmqVTpVnIttlk=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,527 [INFO] [NoneStorage] - performing DELETE at /dsswritebench19
+2015-11-07 11:38:12,617 [ERROR] [AbstractOperator] - Error deleting container dsswritebench19
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D853AB72D2ED18E2, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 0LMwPgUB9EP/lBT+OjIzt5fM2ClfN/lJhpR0CDGJP0n0EVsTVHm5tXppuHElz4u9JvH6vxQ5Lqs=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: D853AB72D2ED18E2, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 0LMwPgUB9EP/lBT+OjIzt5fM2ClfN/lJhpR0CDGJP0n0EVsTVHm5tXppuHElz4u9JvH6vxQ5Lqs=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,617 [INFO] [NoneStorage] - performing DELETE at /dsswritebench20
+2015-11-07 11:38:12,673 [ERROR] [AbstractOperator] - Error deleting container dsswritebench20
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: CB2FBB220C8609ED, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: tY5wZcakBzS5bbnnlKDLINYdzsoiTYgr14x5AYqqs3xfk4v+fythTZdr8dgxarSZ6FchS9wWY78=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: CB2FBB220C8609ED, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: tY5wZcakBzS5bbnnlKDLINYdzsoiTYgr14x5AYqqs3xfk4v+fythTZdr8dgxarSZ6FchS9wWY78=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,674 [INFO] [NoneStorage] - performing DELETE at /dsswritebench21
+2015-11-07 11:38:12,738 [ERROR] [AbstractOperator] - Error deleting container dsswritebench21
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 6628E50EA438D83D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: LyTMxyCi0LC+uKJTRZqHFAj1ZzO5PT+Cr9ZDOyYh0PwopB0Xt9oCuKd+/hHcmj8gI3GkT76TF6o=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 6628E50EA438D83D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: LyTMxyCi0LC+uKJTRZqHFAj1ZzO5PT+Cr9ZDOyYh0PwopB0Xt9oCuKd+/hHcmj8gI3GkT76TF6o=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,738 [INFO] [NoneStorage] - performing DELETE at /dsswritebench22
+2015-11-07 11:38:12,797 [ERROR] [AbstractOperator] - Error deleting container dsswritebench22
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 0DB6AB724DB31D19, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: GRBeq0MGdCA1vTOCvK//Hjp0dPLST85v8iqqBbs/wU/d5tU3WOCLtuGIpQz9Ut92nGEUI+kWdvY=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 0DB6AB724DB31D19, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: GRBeq0MGdCA1vTOCvK//Hjp0dPLST85v8iqqBbs/wU/d5tU3WOCLtuGIpQz9Ut92nGEUI+kWdvY=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,797 [INFO] [NoneStorage] - performing DELETE at /dsswritebench23
+2015-11-07 11:38:12,860 [ERROR] [AbstractOperator] - Error deleting container dsswritebench23
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: F683E8D6A1AD4ECA, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: o+iCrn5lJza6ApQQ8eMOqu4X+ZNgJuhkmGtG9EeVY0JfshEV7l1wc1/Jfevn6XmRyHtvfzb6mHM=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: F683E8D6A1AD4ECA, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: o+iCrn5lJza6ApQQ8eMOqu4X+ZNgJuhkmGtG9EeVY0JfshEV7l1wc1/Jfevn6XmRyHtvfzb6mHM=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,860 [INFO] [NoneStorage] - performing DELETE at /dsswritebench24
+2015-11-07 11:38:12,927 [ERROR] [AbstractOperator] - Error deleting container dsswritebench24
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: F0E839A0BA8C6E3B, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: IuW7OgFv/V2M8mZsFrlpZruaNiEznvNzY+gZkGnkXSQ76arEai0IPnw2DvWnd/duu8kQZuBrpw8=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: F0E839A0BA8C6E3B, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: IuW7OgFv/V2M8mZsFrlpZruaNiEznvNzY+gZkGnkXSQ76arEai0IPnw2DvWnd/duu8kQZuBrpw8=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:12,927 [INFO] [NoneStorage] - performing DELETE at /dsswritebench25
+2015-11-07 11:38:13,006 [ERROR] [AbstractOperator] - Error deleting container dsswritebench25
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 7D2AEA579C393A38, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: LaChJWmSyMqa6FLqMPqEIXFiMisIdWqC6MM7J7nW32B2LvgwPfh27RRtZiPIWJRKR5rzIM/CGj8=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 7D2AEA579C393A38, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: LaChJWmSyMqa6FLqMPqEIXFiMisIdWqC6MM7J7nW32B2LvgwPfh27RRtZiPIWJRKR5rzIM/CGj8=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,006 [INFO] [NoneStorage] - performing DELETE at /dsswritebench26
+2015-11-07 11:38:13,074 [ERROR] [AbstractOperator] - Error deleting container dsswritebench26
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 536998ECCCFEC9C7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 2paQPKP9WDUwiWMm/hrkiU+OvDF2BYFKglkiJPrrtgxz4rUs4vKG4AGbz1u6t1jcWIg7b94Bcqw=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 536998ECCCFEC9C7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 2paQPKP9WDUwiWMm/hrkiU+OvDF2BYFKglkiJPrrtgxz4rUs4vKG4AGbz1u6t1jcWIg7b94Bcqw=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,074 [INFO] [NoneStorage] - performing DELETE at /dsswritebench27
+2015-11-07 11:38:13,113 [ERROR] [AbstractOperator] - Error deleting container dsswritebench27
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 8C7D3AF67F93B4B0, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 4Ea9SPC1YsGAnoApeEGrtRUWU9T0jcQ3H43v33nGuJDTueSJ+OIz0cK/IusQ6Juh7i+plNUa8Mk=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 8C7D3AF67F93B4B0, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 4Ea9SPC1YsGAnoApeEGrtRUWU9T0jcQ3H43v33nGuJDTueSJ+OIz0cK/IusQ6Juh7i+plNUa8Mk=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,113 [INFO] [NoneStorage] - performing DELETE at /dsswritebench28
+2015-11-07 11:38:13,247 [ERROR] [AbstractOperator] - Error deleting container dsswritebench28
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 19AC741EBC67B4D2, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: kOyz9rf2pmClPIaRKiAUNAK6WEYXvznAQXhF7QNt+D8V84xWdrmBt7S29QbPprfKpAiEjOO/5XI=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 19AC741EBC67B4D2, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: kOyz9rf2pmClPIaRKiAUNAK6WEYXvznAQXhF7QNt+D8V84xWdrmBt7S29QbPprfKpAiEjOO/5XI=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,247 [INFO] [NoneStorage] - performing DELETE at /dsswritebench29
+2015-11-07 11:38:13,311 [ERROR] [AbstractOperator] - Error deleting container dsswritebench29
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: C8A05C2F1C2EE50D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: jGkhwzw1BqTha0Z5SHOGqKWTGiSAFBU1KPYMJ4ZlbB0MiA7oLeNfys6EvNG5zNri0BdLdXxmsjw=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: C8A05C2F1C2EE50D, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: jGkhwzw1BqTha0Z5SHOGqKWTGiSAFBU1KPYMJ4ZlbB0MiA7oLeNfys6EvNG5zNri0BdLdXxmsjw=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,311 [INFO] [NoneStorage] - performing DELETE at /dsswritebench30
+2015-11-07 11:38:13,375 [ERROR] [AbstractOperator] - Error deleting container dsswritebench30
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 06F1D2B90809ECED, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 8iApUOLmeHpmetjgRBwhqvEGltUX1/mywzzMuNASuBM0vwO22gujbi8qcaPiJSPKjgZELnKzjzk=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 06F1D2B90809ECED, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 8iApUOLmeHpmetjgRBwhqvEGltUX1/mywzzMuNASuBM0vwO22gujbi8qcaPiJSPKjgZELnKzjzk=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,375 [INFO] [NoneStorage] - performing DELETE at /dsswritebench31
+2015-11-07 11:38:13,434 [ERROR] [AbstractOperator] - Error deleting container dsswritebench31
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: AC71BEF442AFA213, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: B3Kwj87IlSa3/HbVy9kTPNykMNTfM6fcUOCeBhLg1aerIZmTvWnqjQdQvwNl3CZkvjdfbfsG3uA=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: AC71BEF442AFA213, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: B3Kwj87IlSa3/HbVy9kTPNykMNTfM6fcUOCeBhLg1aerIZmTvWnqjQdQvwNl3CZkvjdfbfsG3uA=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,435 [INFO] [NoneStorage] - performing DELETE at /dsswritebench32
+2015-11-07 11:38:13,519 [ERROR] [AbstractOperator] - Error deleting container dsswritebench32
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 4191113549404F9E, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: PvunrNXRU58NIXkDYjWeHR4yPcbOn2bgxtqbxzTI6OI7BeC/l1Wg9EON6/kHMGwu+l/KOABA9fc=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 4191113549404F9E, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: PvunrNXRU58NIXkDYjWeHR4yPcbOn2bgxtqbxzTI6OI7BeC/l1Wg9EON6/kHMGwu+l/KOABA9fc=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,520 [INFO] [NoneStorage] - performing DELETE at /dsswritebench33
+2015-11-07 11:38:13,596 [ERROR] [AbstractOperator] - Error deleting container dsswritebench33
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: E74B8F92827993A7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: YoZQgzs7kwhr1wHar3cmMHDbEO5nmlGWME02SNLMA0K76Y21u8ef5UUfKs49ZMAh9vb23uP+0Hc=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: E74B8F92827993A7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: YoZQgzs7kwhr1wHar3cmMHDbEO5nmlGWME02SNLMA0K76Y21u8ef5UUfKs49ZMAh9vb23uP+0Hc=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,596 [INFO] [NoneStorage] - performing DELETE at /dsswritebench34
+2015-11-07 11:38:13,652 [ERROR] [AbstractOperator] - Error deleting container dsswritebench34
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2EB236B89D5BB2CC, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 1HgDuTWIOq88aHuAJuKxjZGJXIOPnA0Kxc4IaMl51nbScWAIWY+9QJlb1ZpubgwHPhTBb6H1oek=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2EB236B89D5BB2CC, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 1HgDuTWIOq88aHuAJuKxjZGJXIOPnA0Kxc4IaMl51nbScWAIWY+9QJlb1ZpubgwHPhTBb6H1oek=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,653 [INFO] [NoneStorage] - performing DELETE at /dsswritebench35
+2015-11-07 11:38:13,736 [ERROR] [AbstractOperator] - Error deleting container dsswritebench35
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 8EDB5A665E5003D5, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: TJbtn/vj16jWIhdjdYxac44z8CiiH4GidoO+akxqPvHhROP+JwKCCySqwxSz9meAZiqYIXReFBA=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 8EDB5A665E5003D5, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: TJbtn/vj16jWIhdjdYxac44z8CiiH4GidoO+akxqPvHhROP+JwKCCySqwxSz9meAZiqYIXReFBA=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,736 [INFO] [NoneStorage] - performing DELETE at /dsswritebench36
+2015-11-07 11:38:13,812 [ERROR] [AbstractOperator] - Error deleting container dsswritebench36
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: F4E5380F13FF8B54, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Uqe+m2P+qZBrSUJtorQr6DstzFVQG+lVIp3xomK0RHyPmZApEQXluMkgN+N+KnGmdsC3ik6RDCo=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: F4E5380F13FF8B54, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Uqe+m2P+qZBrSUJtorQr6DstzFVQG+lVIp3xomK0RHyPmZApEQXluMkgN+N+KnGmdsC3ik6RDCo=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,813 [INFO] [NoneStorage] - performing DELETE at /dsswritebench37
+2015-11-07 11:38:13,892 [ERROR] [AbstractOperator] - Error deleting container dsswritebench37
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 4A12F7941AA867C6, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: uNl+qTYy0hMCW9pUoxPcFZLo1DK2j/2Srh10ATp05eT+oCNwphQcRK9d9bb5Zs9ULcb9YZ7/jTU=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 4A12F7941AA867C6, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: uNl+qTYy0hMCW9pUoxPcFZLo1DK2j/2Srh10ATp05eT+oCNwphQcRK9d9bb5Zs9ULcb9YZ7/jTU=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,893 [INFO] [NoneStorage] - performing DELETE at /dsswritebench38
+2015-11-07 11:38:13,965 [ERROR] [AbstractOperator] - Error deleting container dsswritebench38
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 25643358C28CF4BF, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: qJI0KUhU3MmkEbevavqfnbS8sxg9C1LaIIOhyvHfK01hCFJMz1XGDApc7EXbqus8wP0PNs1nrtc=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 25643358C28CF4BF, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: qJI0KUhU3MmkEbevavqfnbS8sxg9C1LaIIOhyvHfK01hCFJMz1XGDApc7EXbqus8wP0PNs1nrtc=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:13,965 [INFO] [NoneStorage] - performing DELETE at /dsswritebench39
+2015-11-07 11:38:14,028 [ERROR] [AbstractOperator] - Error deleting container dsswritebench39
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 99CC755D3BC31FE0, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: nbvpHXHNOt8b7hrVFoh62ZaBLQ5RgnZ1HllMOMdmdNuhYVGbOsy45m/1KKLqHulzGH5BP6ceEsI=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 99CC755D3BC31FE0, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: nbvpHXHNOt8b7hrVFoh62ZaBLQ5RgnZ1HllMOMdmdNuhYVGbOsy45m/1KKLqHulzGH5BP6ceEsI=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,029 [INFO] [NoneStorage] - performing DELETE at /dsswritebench40
+2015-11-07 11:38:14,116 [ERROR] [AbstractOperator] - Error deleting container dsswritebench40
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 1C743DDF5A53F978, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 6K3OH7juwu5InB20ZaYis/A0u3C4b6OW7eq1Qoiz+SQNY0a+JHLOR45HQP8AQau9NH186iY16ck=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 1C743DDF5A53F978, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 6K3OH7juwu5InB20ZaYis/A0u3C4b6OW7eq1Qoiz+SQNY0a+JHLOR45HQP8AQau9NH186iY16ck=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,117 [INFO] [NoneStorage] - performing DELETE at /dsswritebench41
+2015-11-07 11:38:14,169 [ERROR] [AbstractOperator] - Error deleting container dsswritebench41
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: A0147EB0506DF265, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: JoMhm52jr/Q6YQ4RwnDhjBtxrOQRPXrWRi1hKdJtnTfuCd/fAQCNPVZqTgU/i6uL6AUBg0jfe7Y=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: A0147EB0506DF265, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: JoMhm52jr/Q6YQ4RwnDhjBtxrOQRPXrWRi1hKdJtnTfuCd/fAQCNPVZqTgU/i6uL6AUBg0jfe7Y=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,169 [INFO] [NoneStorage] - performing DELETE at /dsswritebench42
+2015-11-07 11:38:14,313 [ERROR] [AbstractOperator] - Error deleting container dsswritebench42
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 71780F1BA81E1840, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: LOL6wBuaRKsMxQtHCz3BeC8vf/BRqfMcIwbtdOruNkPBt/V4FP6qE2Kq1kV66yZKJ2Bua1sUQl4=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 71780F1BA81E1840, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: LOL6wBuaRKsMxQtHCz3BeC8vf/BRqfMcIwbtdOruNkPBt/V4FP6qE2Kq1kV66yZKJ2Bua1sUQl4=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,314 [INFO] [NoneStorage] - performing DELETE at /dsswritebench43
+2015-11-07 11:38:14,379 [ERROR] [AbstractOperator] - Error deleting container dsswritebench43
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: E43CE892971DCE7B, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 87bze8d7lCenhfJVSfKPCHrriuNLgtXTVz4yaYAQB+mjJ3ReAc2rXaVnNIacrIqjFZo/YIW/RQo=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: E43CE892971DCE7B, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 87bze8d7lCenhfJVSfKPCHrriuNLgtXTVz4yaYAQB+mjJ3ReAc2rXaVnNIacrIqjFZo/YIW/RQo=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,379 [INFO] [NoneStorage] - performing DELETE at /dsswritebench44
+2015-11-07 11:38:14,438 [ERROR] [AbstractOperator] - Error deleting container dsswritebench44
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 60B0756DDF3657B8, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 3lQj/yKPl1Ld8WlFmvVQE/4QVZKspHy09A54WqE6fNQw7YEJUhn+hs/JxqL1/mogyQqpYEXph/4=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 60B0756DDF3657B8, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 3lQj/yKPl1Ld8WlFmvVQE/4QVZKspHy09A54WqE6fNQw7YEJUhn+hs/JxqL1/mogyQqpYEXph/4=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,439 [INFO] [NoneStorage] - performing DELETE at /dsswritebench45
+2015-11-07 11:38:14,507 [ERROR] [AbstractOperator] - Error deleting container dsswritebench45
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 86802052E85565F7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: odzxfriG50IdoA+BBv1jGxA7zha+mG+hnS8KwQICiyeoojpR2aWGqXZq3bt+P444fK9Pi81gBto=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 86802052E85565F7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: odzxfriG50IdoA+BBv1jGxA7zha+mG+hnS8KwQICiyeoojpR2aWGqXZq3bt+P444fK9Pi81gBto=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,508 [INFO] [NoneStorage] - performing DELETE at /dsswritebench46
+2015-11-07 11:38:14,574 [ERROR] [AbstractOperator] - Error deleting container dsswritebench46
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: C4D3DF15B6E9FC97, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: nkv50BSDrHR//XysIfCB1uprvbbyQzsYIpfSj506RK9ahrW9vzDw7ilDwjdFdk3MJImIuGjAqgA=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: C4D3DF15B6E9FC97, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: nkv50BSDrHR//XysIfCB1uprvbbyQzsYIpfSj506RK9ahrW9vzDw7ilDwjdFdk3MJImIuGjAqgA=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,574 [INFO] [NoneStorage] - performing DELETE at /dsswritebench47
+2015-11-07 11:38:14,637 [ERROR] [AbstractOperator] - Error deleting container dsswritebench47
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 7B31387399165EE7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 4GOltHRA1hfyPEDs7xbIjaDaC9Zxe1HzANRov+8GME2zF2CU5Iv/v8f7LjS+1DqahjcKcyx+ceM=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 7B31387399165EE7, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: 4GOltHRA1hfyPEDs7xbIjaDaC9Zxe1HzANRov+8GME2zF2CU5Iv/v8f7LjS+1DqahjcKcyx+ceM=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,638 [INFO] [NoneStorage] - performing DELETE at /dsswritebench48
+2015-11-07 11:38:14,700 [ERROR] [AbstractOperator] - Error deleting container dsswritebench48
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 3FF058F7BEBA64B8, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: AAYlnhO4ObWyyTf1BmJEplAXFgrisflrAnlwjB55FO9WFBwB6Q3eaBd0zy65a4cz1OsSiBiiuS8=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 3FF058F7BEBA64B8, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: AAYlnhO4ObWyyTf1BmJEplAXFgrisflrAnlwjB55FO9WFBwB6Q3eaBd0zy65a4cz1OsSiBiiuS8=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,700 [INFO] [NoneStorage] - performing DELETE at /dsswritebench49
+2015-11-07 11:38:14,770 [ERROR] [AbstractOperator] - Error deleting container dsswritebench49
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 66F1D3E560819A83, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: kBj9SO0ey89DHykKBNXLzQ3PHiMxl4eP5x2PO06lDoNOyn1GaONZWZbb18oJq/zYLAuiqlHpwSI=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 66F1D3E560819A83, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: kBj9SO0ey89DHykKBNXLzQ3PHiMxl4eP5x2PO06lDoNOyn1GaONZWZbb18oJq/zYLAuiqlHpwSI=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,770 [INFO] [NoneStorage] - performing DELETE at /dsswritebench50
+2015-11-07 11:38:14,846 [ERROR] [AbstractOperator] - Error deleting container dsswritebench50
+com.intel.cosbench.api.storage.StorageException: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2BE2013342E689B0, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Y9nYkrbWoBnBi4pE/NXE3gwlY5CGDglHmKFk7QktB228FonGwRqSRiDuya+I0+76USdE0KZkprY=
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:139)
+	at com.intel.cosbench.driver.operator.Cleaner.doDispose(Cleaner.java:111)
+	at com.intel.cosbench.driver.operator.Disposer.doDispose(Disposer.java:1)
+	at com.intel.cosbench.driver.operator.Cleaner.operate(Cleaner.java:83)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.operator.Disposer.operate(Disposer.java:1)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: AmazonS3Exception: Status Code: 409, AWS Service: Amazon S3, AWS Request ID: 2BE2013342E689B0, AWS Error Code: BucketNotEmpty, AWS Error Message: The bucket you tried to delete is not empty, S3 Extended Request ID: Y9nYkrbWoBnBi4pE/NXE3gwlY5CGDglHmKFk7QktB228FonGwRqSRiDuya+I0+76USdE0KZkprY=
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:644)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:338)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:190)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:2974)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:997)
+	at com.amazonaws.services.s3.AmazonS3Client.deleteBucket(AmazonS3Client.java:981)
+	at com.intel.cosbench.api.S3Stor.S3Storage.deleteContainer(S3Storage.java:135)
+	... 14 more
+2015-11-07 11:38:14,846 [INFO] [NoneStorage] - performing DELETE at /dsswritebench51
+2015-11-07 11:38:14,876 [INFO] [NoneStorage] - performing DELETE at /dsswritebench52
+2015-11-07 11:38:14,910 [INFO] [NoneStorage] - performing DELETE at /dsswritebench53
+2015-11-07 11:38:14,934 [INFO] [NoneStorage] - performing DELETE at /dsswritebench54
+2015-11-07 11:38:14,959 [INFO] [NoneStorage] - performing DELETE at /dsswritebench55
+2015-11-07 11:38:14,984 [INFO] [NoneStorage] - performing DELETE at /dsswritebench56
+2015-11-07 11:38:15,009 [INFO] [NoneStorage] - performing DELETE at /dsswritebench57
+2015-11-07 11:38:15,035 [INFO] [NoneStorage] - performing DELETE at /dsswritebench58
+2015-11-07 11:38:15,064 [INFO] [NoneStorage] - performing DELETE at /dsswritebench59
+2015-11-07 11:38:15,089 [INFO] [NoneStorage] - performing DELETE at /dsswritebench60
+2015-11-07 11:38:15,114 [INFO] [NoneStorage] - performing DELETE at /dsswritebench61
+2015-11-07 11:38:15,135 [INFO] [NoneStorage] - performing DELETE at /dsswritebench62
+2015-11-07 11:38:15,162 [INFO] [NoneStorage] - performing DELETE at /dsswritebench63
+2015-11-07 11:38:15,187 [INFO] [NoneStorage] - performing DELETE at /dsswritebench64
+2015-11-07 11:38:15,212 [INFO] [NoneStorage] - performing DELETE at /dsswritebench65
+2015-11-07 11:38:15,237 [INFO] [NoneStorage] - performing DELETE at /dsswritebench66
+2015-11-07 11:38:15,297 [INFO] [NoneStorage] - performing DELETE at /dsswritebench67
+2015-11-07 11:38:15,328 [INFO] [NoneStorage] - performing DELETE at /dsswritebench68
+2015-11-07 11:38:15,354 [INFO] [NoneStorage] - performing DELETE at /dsswritebench69
+2015-11-07 11:38:15,379 [INFO] [NoneStorage] - performing DELETE at /dsswritebench70
+2015-11-07 11:38:15,403 [INFO] [NoneStorage] - performing DELETE at /dsswritebench71
+2015-11-07 11:38:15,427 [INFO] [NoneStorage] - performing DELETE at /dsswritebench72
+2015-11-07 11:38:15,462 [INFO] [NoneStorage] - performing DELETE at /dsswritebench73
+2015-11-07 11:38:15,496 [INFO] [NoneStorage] - performing DELETE at /dsswritebench74
+2015-11-07 11:38:15,520 [INFO] [NoneStorage] - performing DELETE at /dsswritebench75
+2015-11-07 11:38:15,558 [INFO] [NoneStorage] - performing DELETE at /dsswritebench76
+2015-11-07 11:38:15,583 [INFO] [NoneStorage] - performing DELETE at /dsswritebench77
+2015-11-07 11:38:15,611 [INFO] [NoneStorage] - performing DELETE at /dsswritebench78
+2015-11-07 11:38:15,644 [INFO] [NoneStorage] - performing DELETE at /dsswritebench79
+2015-11-07 11:38:15,678 [INFO] [NoneStorage] - performing DELETE at /dsswritebench80
+2015-11-07 11:38:15,704 [INFO] [NoneStorage] - performing DELETE at /dsswritebench81
+2015-11-07 11:38:15,742 [INFO] [NoneStorage] - performing DELETE at /dsswritebench82
+2015-11-07 11:38:15,774 [INFO] [NoneStorage] - performing DELETE at /dsswritebench83
+2015-11-07 11:38:15,801 [INFO] [NoneStorage] - performing DELETE at /dsswritebench84
+2015-11-07 11:38:15,824 [INFO] [NoneStorage] - performing DELETE at /dsswritebench85
+2015-11-07 11:38:15,852 [INFO] [NoneStorage] - performing DELETE at /dsswritebench86
+2015-11-07 11:38:15,886 [INFO] [NoneStorage] - performing DELETE at /dsswritebench87
+2015-11-07 11:38:15,911 [INFO] [NoneStorage] - performing DELETE at /dsswritebench88
+2015-11-07 11:38:15,941 [INFO] [NoneStorage] - performing DELETE at /dsswritebench89
+2015-11-07 11:38:15,972 [INFO] [NoneStorage] - performing DELETE at /dsswritebench90
+2015-11-07 11:38:15,992 [INFO] [NoneStorage] - performing DELETE at /dsswritebench91
+2015-11-07 11:38:16,021 [INFO] [NoneStorage] - performing DELETE at /dsswritebench92
+2015-11-07 11:38:16,051 [INFO] [NoneStorage] - performing DELETE at /dsswritebench93
+2015-11-07 11:38:16,077 [INFO] [NoneStorage] - performing DELETE at /dsswritebench94
+2015-11-07 11:38:16,113 [INFO] [NoneStorage] - performing DELETE at /dsswritebench95
+2015-11-07 11:38:16,140 [INFO] [NoneStorage] - performing DELETE at /dsswritebench96
+2015-11-07 11:38:16,180 [INFO] [NoneStorage] - performing DELETE at /dsswritebench97
+2015-11-07 11:38:16,207 [INFO] [NoneStorage] - performing DELETE at /dsswritebench98
+2015-11-07 11:38:16,235 [INFO] [NoneStorage] - performing DELETE at /dsswritebench99
+2015-11-07 11:38:16,270 [INFO] [NoneStorage] - performing DELETE at /dsswritebench100
+2015-11-07 11:38:16,302 [INFO] [NoneStorage] - performing DELETE at /dsswritebench101
+2015-11-07 11:38:16,329 [INFO] [NoneStorage] - performing DELETE at /dsswritebench102
+2015-11-07 11:38:16,350 [INFO] [NoneStorage] - performing DELETE at /dsswritebench103
+2015-11-07 11:38:16,405 [INFO] [NoneStorage] - performing DELETE at /dsswritebench104
+2015-11-07 11:38:16,427 [INFO] [NoneStorage] - performing DELETE at /dsswritebench105
+2015-11-07 11:38:16,463 [INFO] [NoneStorage] - performing DELETE at /dsswritebench106
+2015-11-07 11:38:16,489 [INFO] [NoneStorage] - performing DELETE at /dsswritebench107
+2015-11-07 11:38:16,527 [INFO] [NoneStorage] - performing DELETE at /dsswritebench108
+2015-11-07 11:38:16,552 [INFO] [NoneStorage] - performing DELETE at /dsswritebench109
+2015-11-07 11:38:16,578 [INFO] [NoneStorage] - performing DELETE at /dsswritebench110
+2015-11-07 11:38:16,607 [INFO] [NoneStorage] - performing DELETE at /dsswritebench111
+2015-11-07 11:38:16,645 [INFO] [NoneStorage] - performing DELETE at /dsswritebench112
+2015-11-07 11:38:16,679 [INFO] [NoneStorage] - performing DELETE at /dsswritebench113
+2015-11-07 11:38:16,703 [INFO] [NoneStorage] - performing DELETE at /dsswritebench114
+2015-11-07 11:38:16,730 [INFO] [NoneStorage] - performing DELETE at /dsswritebench115
+2015-11-07 11:38:16,751 [INFO] [NoneStorage] - performing DELETE at /dsswritebench116
+2015-11-07 11:38:16,774 [INFO] [NoneStorage] - performing DELETE at /dsswritebench117
+2015-11-07 11:38:16,800 [INFO] [NoneStorage] - performing DELETE at /dsswritebench118
+2015-11-07 11:38:16,825 [INFO] [NoneStorage] - performing DELETE at /dsswritebench119
+2015-11-07 11:38:16,848 [INFO] [NoneStorage] - performing DELETE at /dsswritebench120
+2015-11-07 11:38:16,873 [INFO] [NoneStorage] - performing DELETE at /dsswritebench121
+2015-11-07 11:38:16,914 [INFO] [NoneStorage] - performing DELETE at /dsswritebench122
+2015-11-07 11:38:16,938 [INFO] [NoneStorage] - performing DELETE at /dsswritebench123
+2015-11-07 11:38:16,966 [INFO] [NoneStorage] - performing DELETE at /dsswritebench124
+2015-11-07 11:38:16,992 [INFO] [NoneStorage] - performing DELETE at /dsswritebench125
+2015-11-07 11:38:17,027 [INFO] [NoneStorage] - performing DELETE at /dsswritebench126
+2015-11-07 11:38:17,065 [INFO] [NoneStorage] - performing DELETE at /dsswritebench127
+2015-11-07 11:38:17,091 [INFO] [NoneStorage] - performing DELETE at /dsswritebench128
+2015-11-07 11:38:17,119 [INFO] [NoneStorage] - performing DELETE at /dsswritebench129
+2015-11-07 11:38:17,141 [INFO] [NoneStorage] - performing DELETE at /dsswritebench130
+2015-11-07 11:38:17,169 [INFO] [NoneStorage] - performing DELETE at /dsswritebench131
+2015-11-07 11:38:17,205 [INFO] [NoneStorage] - performing DELETE at /dsswritebench132
+2015-11-07 11:38:17,241 [INFO] [NoneStorage] - performing DELETE at /dsswritebench133
+2015-11-07 11:38:17,281 [INFO] [NoneStorage] - performing DELETE at /dsswritebench134
+2015-11-07 11:38:17,307 [INFO] [NoneStorage] - performing DELETE at /dsswritebench135
+2015-11-07 11:38:17,332 [INFO] [NoneStorage] - performing DELETE at /dsswritebench136
+2015-11-07 11:38:17,358 [INFO] [NoneStorage] - performing DELETE at /dsswritebench137
+2015-11-07 11:38:17,384 [INFO] [NoneStorage] - performing DELETE at /dsswritebench138
+2015-11-07 11:38:17,414 [INFO] [NoneStorage] - performing DELETE at /dsswritebench139
+2015-11-07 11:38:17,447 [INFO] [NoneStorage] - performing DELETE at /dsswritebench140
+2015-11-07 11:38:17,470 [INFO] [NoneStorage] - performing DELETE at /dsswritebench141
+2015-11-07 11:38:17,497 [INFO] [NoneStorage] - performing DELETE at /dsswritebench142
+2015-11-07 11:38:17,551 [INFO] [NoneStorage] - performing DELETE at /dsswritebench143
+2015-11-07 11:38:17,582 [INFO] [NoneStorage] - performing DELETE at /dsswritebench144
+2015-11-07 11:38:17,611 [INFO] [NoneStorage] - performing DELETE at /dsswritebench145
+2015-11-07 11:38:17,637 [INFO] [NoneStorage] - performing DELETE at /dsswritebench146
+2015-11-07 11:38:17,671 [INFO] [NoneStorage] - performing DELETE at /dsswritebench147
+2015-11-07 11:38:17,699 [INFO] [NoneStorage] - performing DELETE at /dsswritebench148
+2015-11-07 11:38:17,723 [INFO] [NoneStorage] - performing DELETE at /dsswritebench149
+2015-11-07 11:38:17,747 [INFO] [NoneStorage] - performing DELETE at /dsswritebench150
+2015-11-07 11:38:17,786 [INFO] [NoneStorage] - performing DELETE at /dsswritebench151
+2015-11-07 11:38:17,812 [INFO] [NoneStorage] - performing DELETE at /dsswritebench152
+2015-11-07 11:38:17,853 [INFO] [NoneStorage] - performing DELETE at /dsswritebench153
+2015-11-07 11:38:17,883 [INFO] [NoneStorage] - performing DELETE at /dsswritebench154
+2015-11-07 11:38:17,910 [INFO] [NoneStorage] - performing DELETE at /dsswritebench155
+2015-11-07 11:38:17,947 [INFO] [NoneStorage] - performing DELETE at /dsswritebench156
+2015-11-07 11:38:17,974 [INFO] [NoneStorage] - performing DELETE at /dsswritebench157
+2015-11-07 11:38:18,014 [INFO] [NoneStorage] - performing DELETE at /dsswritebench158
+2015-11-07 11:38:18,046 [INFO] [NoneStorage] - performing DELETE at /dsswritebench159
+2015-11-07 11:38:18,097 [INFO] [NoneStorage] - performing DELETE at /dsswritebench160
+2015-11-07 11:38:18,127 [INFO] [NoneStorage] - performing DELETE at /dsswritebench161
+2015-11-07 11:38:18,153 [INFO] [NoneStorage] - performing DELETE at /dsswritebench162
+2015-11-07 11:38:18,176 [INFO] [NoneStorage] - performing DELETE at /dsswritebench163
+2015-11-07 11:38:18,201 [INFO] [NoneStorage] - performing DELETE at /dsswritebench164
+2015-11-07 11:38:18,224 [INFO] [NoneStorage] - performing DELETE at /dsswritebench165
+2015-11-07 11:38:18,255 [INFO] [NoneStorage] - performing DELETE at /dsswritebench166
+2015-11-07 11:38:18,291 [INFO] [NoneStorage] - performing DELETE at /dsswritebench167
+2015-11-07 11:38:18,331 [INFO] [NoneStorage] - performing DELETE at /dsswritebench168
+2015-11-07 11:38:18,356 [INFO] [NoneStorage] - performing DELETE at /dsswritebench169
+2015-11-07 11:38:18,395 [INFO] [NoneStorage] - performing DELETE at /dsswritebench170
+2015-11-07 11:38:18,424 [INFO] [NoneStorage] - performing DELETE at /dsswritebench171
+2015-11-07 11:38:18,451 [INFO] [NoneStorage] - performing DELETE at /dsswritebench172
+2015-11-07 11:38:18,482 [INFO] [NoneStorage] - performing DELETE at /dsswritebench173
+2015-11-07 11:38:18,505 [INFO] [NoneStorage] - performing DELETE at /dsswritebench174
+2015-11-07 11:38:18,532 [INFO] [NoneStorage] - performing DELETE at /dsswritebench175
+2015-11-07 11:38:18,560 [INFO] [NoneStorage] - performing DELETE at /dsswritebench176
+2015-11-07 11:38:18,588 [INFO] [NoneStorage] - performing DELETE at /dsswritebench177
+2015-11-07 11:38:18,616 [INFO] [NoneStorage] - performing DELETE at /dsswritebench178
+2015-11-07 11:38:18,647 [INFO] [NoneStorage] - performing DELETE at /dsswritebench179
+2015-11-07 11:38:18,673 [INFO] [NoneStorage] - performing DELETE at /dsswritebench180
+2015-11-07 11:38:18,701 [INFO] [NoneStorage] - performing DELETE at /dsswritebench181
+2015-11-07 11:38:18,726 [INFO] [NoneStorage] - performing DELETE at /dsswritebench182
+2015-11-07 11:38:18,754 [INFO] [NoneStorage] - performing DELETE at /dsswritebench183
+2015-11-07 11:38:18,785 [INFO] [NoneStorage] - performing DELETE at /dsswritebench184
+2015-11-07 11:38:18,809 [INFO] [NoneStorage] - performing DELETE at /dsswritebench185
+2015-11-07 11:38:18,835 [INFO] [NoneStorage] - performing DELETE at /dsswritebench186
+2015-11-07 11:38:18,861 [INFO] [NoneStorage] - performing DELETE at /dsswritebench187
+2015-11-07 11:38:18,885 [INFO] [NoneStorage] - performing DELETE at /dsswritebench188
+2015-11-07 11:38:18,907 [INFO] [NoneStorage] - performing DELETE at /dsswritebench189
+2015-11-07 11:38:18,937 [INFO] [NoneStorage] - performing DELETE at /dsswritebench190
+2015-11-07 11:38:18,962 [INFO] [NoneStorage] - performing DELETE at /dsswritebench191
+2015-11-07 11:38:18,994 [INFO] [NoneStorage] - performing DELETE at /dsswritebench192
+2015-11-07 11:38:19,031 [INFO] [NoneStorage] - performing DELETE at /dsswritebench193
+2015-11-07 11:38:19,057 [INFO] [NoneStorage] - performing DELETE at /dsswritebench194
+2015-11-07 11:38:19,083 [INFO] [NoneStorage] - performing DELETE at /dsswritebench195
+2015-11-07 11:38:19,113 [INFO] [NoneStorage] - performing DELETE at /dsswritebench196
+2015-11-07 11:38:19,139 [INFO] [NoneStorage] - performing DELETE at /dsswritebench197
+2015-11-07 11:38:19,162 [INFO] [NoneStorage] - performing DELETE at /dsswritebench198
+2015-11-07 11:38:19,194 [INFO] [NoneStorage] - performing DELETE at /dsswritebench199
+2015-11-07 11:38:19,292 [INFO] [NoneStorage] - performing DELETE at /dsswritebench200
+2015-11-07 11:38:19,338 [INFO] [NoneStorage] - performing DELETE at /dsswritebench201
+2015-11-07 11:38:19,388 [INFO] [NoneStorage] - performing DELETE at /dsswritebench202
+2015-11-07 11:38:19,413 [INFO] [NoneStorage] - performing DELETE at /dsswritebench203
+2015-11-07 11:38:19,438 [INFO] [NoneStorage] - performing DELETE at /dsswritebench204
+2015-11-07 11:38:19,463 [INFO] [NoneStorage] - performing DELETE at /dsswritebench205
+2015-11-07 11:38:19,493 [INFO] [NoneStorage] - performing DELETE at /dsswritebench206
+2015-11-07 11:38:19,520 [INFO] [NoneStorage] - performing DELETE at /dsswritebench207
+2015-11-07 11:38:19,548 [INFO] [NoneStorage] - performing DELETE at /dsswritebench208
+2015-11-07 11:38:19,572 [INFO] [NoneStorage] - performing DELETE at /dsswritebench209
+2015-11-07 11:38:19,597 [INFO] [NoneStorage] - performing DELETE at /dsswritebench210
+2015-11-07 11:38:19,624 [INFO] [NoneStorage] - performing DELETE at /dsswritebench211
+2015-11-07 11:38:19,648 [INFO] [NoneStorage] - performing DELETE at /dsswritebench212
+2015-11-07 11:38:19,694 [INFO] [NoneStorage] - performing DELETE at /dsswritebench213
+2015-11-07 11:38:19,750 [INFO] [NoneStorage] - performing DELETE at /dsswritebench214
+2015-11-07 11:38:19,791 [INFO] [NoneStorage] - performing DELETE at /dsswritebench215
+2015-11-07 11:38:19,820 [INFO] [NoneStorage] - performing DELETE at /dsswritebench216
+2015-11-07 11:38:19,846 [INFO] [NoneStorage] - performing DELETE at /dsswritebench217
+2015-11-07 11:38:19,870 [INFO] [NoneStorage] - performing DELETE at /dsswritebench218
+2015-11-07 11:38:19,895 [INFO] [NoneStorage] - performing DELETE at /dsswritebench219
+2015-11-07 11:38:19,916 [INFO] [NoneStorage] - performing DELETE at /dsswritebench220
+2015-11-07 11:38:19,937 [INFO] [NoneStorage] - performing DELETE at /dsswritebench221
+2015-11-07 11:38:19,966 [INFO] [NoneStorage] - performing DELETE at /dsswritebench222
+2015-11-07 11:38:20,003 [INFO] [NoneStorage] - performing DELETE at /dsswritebench223
+2015-11-07 11:38:20,038 [INFO] [NoneStorage] - performing DELETE at /dsswritebench224
+2015-11-07 11:38:20,068 [INFO] [NoneStorage] - performing DELETE at /dsswritebench225
+2015-11-07 11:38:20,094 [INFO] [NoneStorage] - performing DELETE at /dsswritebench226
+2015-11-07 11:38:20,132 [INFO] [NoneStorage] - performing DELETE at /dsswritebench227
+2015-11-07 11:38:20,157 [INFO] [NoneStorage] - performing DELETE at /dsswritebench228
+2015-11-07 11:38:20,194 [INFO] [NoneStorage] - performing DELETE at /dsswritebench229
+2015-11-07 11:38:20,219 [INFO] [NoneStorage] - performing DELETE at /dsswritebench230
+2015-11-07 11:38:20,247 [INFO] [NoneStorage] - performing DELETE at /dsswritebench231
+2015-11-07 11:38:20,275 [INFO] [NoneStorage] - performing DELETE at /dsswritebench232
+2015-11-07 11:38:20,298 [INFO] [NoneStorage] - performing DELETE at /dsswritebench233
+2015-11-07 11:38:20,322 [INFO] [NoneStorage] - performing DELETE at /dsswritebench234
+2015-11-07 11:38:20,343 [INFO] [NoneStorage] - performing DELETE at /dsswritebench235
+2015-11-07 11:38:20,366 [INFO] [NoneStorage] - performing DELETE at /dsswritebench236
+2015-11-07 11:38:20,392 [INFO] [NoneStorage] - performing DELETE at /dsswritebench237
+2015-11-07 11:38:20,418 [INFO] [NoneStorage] - performing DELETE at /dsswritebench238
+2015-11-07 11:38:20,446 [INFO] [NoneStorage] - performing DELETE at /dsswritebench239
+2015-11-07 11:38:20,469 [INFO] [NoneStorage] - performing DELETE at /dsswritebench240
+2015-11-07 11:38:20,516 [INFO] [NoneStorage] - performing DELETE at /dsswritebench241
+2015-11-07 11:38:20,538 [INFO] [NoneStorage] - performing DELETE at /dsswritebench242
+2015-11-07 11:38:20,568 [INFO] [NoneStorage] - performing DELETE at /dsswritebench243
+2015-11-07 11:38:20,591 [INFO] [NoneStorage] - performing DELETE at /dsswritebench244
+2015-11-07 11:38:20,617 [INFO] [NoneStorage] - performing DELETE at /dsswritebench245
+2015-11-07 11:38:20,653 [INFO] [NoneStorage] - performing DELETE at /dsswritebench246
+2015-11-07 11:38:20,676 [INFO] [NoneStorage] - performing DELETE at /dsswritebench247
+2015-11-07 11:38:20,738 [INFO] [NoneStorage] - performing DELETE at /dsswritebench248
+2015-11-07 11:38:20,771 [INFO] [NoneStorage] - performing DELETE at /dsswritebench249
+2015-11-07 11:38:20,800 [INFO] [NoneStorage] - performing DELETE at /dsswritebench250
+2015-11-07 11:38:20,822 [INFO] [NoneStorage] - performing DELETE at /dsswritebench251
+2015-11-07 11:38:20,845 [INFO] [NoneStorage] - performing DELETE at /dsswritebench252
+2015-11-07 11:38:20,869 [INFO] [NoneStorage] - performing DELETE at /dsswritebench253
+2015-11-07 11:38:20,891 [INFO] [NoneStorage] - performing DELETE at /dsswritebench254
+2015-11-07 11:38:20,926 [INFO] [NoneStorage] - performing DELETE at /dsswritebench255
+2015-11-07 11:38:20,949 [INFO] [NoneStorage] - performing DELETE at /dsswritebench256
+2015-11-07 11:38:20,976 [INFO] [NoneStorage] - performing DELETE at /dsswritebench257
+2015-11-07 11:38:21,010 [INFO] [NoneStorage] - performing DELETE at /dsswritebench258
+2015-11-07 11:38:21,033 [INFO] [NoneStorage] - performing DELETE at /dsswritebench259
+2015-11-07 11:38:21,056 [INFO] [NoneStorage] - performing DELETE at /dsswritebench260
+2015-11-07 11:38:21,077 [INFO] [NoneStorage] - performing DELETE at /dsswritebench261
+2015-11-07 11:38:21,099 [INFO] [NoneStorage] - performing DELETE at /dsswritebench262
+2015-11-07 11:38:21,121 [INFO] [NoneStorage] - performing DELETE at /dsswritebench263
+2015-11-07 11:38:21,159 [INFO] [NoneStorage] - performing DELETE at /dsswritebench264
+2015-11-07 11:38:21,180 [INFO] [NoneStorage] - performing DELETE at /dsswritebench265
+2015-11-07 11:38:21,203 [INFO] [NoneStorage] - performing DELETE at /dsswritebench266
+2015-11-07 11:38:21,224 [INFO] [NoneStorage] - performing DELETE at /dsswritebench267
+2015-11-07 11:38:21,246 [INFO] [NoneStorage] - performing DELETE at /dsswritebench268
+2015-11-07 11:38:21,266 [INFO] [NoneStorage] - performing DELETE at /dsswritebench269
+2015-11-07 11:38:21,293 [INFO] [NoneStorage] - performing DELETE at /dsswritebench270
+2015-11-07 11:38:21,316 [INFO] [NoneStorage] - performing DELETE at /dsswritebench271
+2015-11-07 11:38:21,339 [INFO] [NoneStorage] - performing DELETE at /dsswritebench272
+2015-11-07 11:38:21,366 [INFO] [NoneStorage] - performing DELETE at /dsswritebench273
+2015-11-07 11:38:21,396 [INFO] [NoneStorage] - performing DELETE at /dsswritebench274
+2015-11-07 11:38:21,418 [INFO] [NoneStorage] - performing DELETE at /dsswritebench275
+2015-11-07 11:38:21,446 [INFO] [NoneStorage] - performing DELETE at /dsswritebench276
+2015-11-07 11:38:21,473 [INFO] [NoneStorage] - performing DELETE at /dsswritebench277
+2015-11-07 11:38:21,499 [INFO] [NoneStorage] - performing DELETE at /dsswritebench278
+2015-11-07 11:38:21,521 [INFO] [NoneStorage] - performing DELETE at /dsswritebench279
+2015-11-07 11:38:21,562 [INFO] [NoneStorage] - performing DELETE at /dsswritebench280
+2015-11-07 11:38:21,589 [INFO] [NoneStorage] - performing DELETE at /dsswritebench281
+2015-11-07 11:38:21,614 [INFO] [NoneStorage] - performing DELETE at /dsswritebench282
+2015-11-07 11:38:21,639 [INFO] [NoneStorage] - performing DELETE at /dsswritebench283
+2015-11-07 11:38:21,663 [INFO] [NoneStorage] - performing DELETE at /dsswritebench284
+2015-11-07 11:38:21,688 [INFO] [NoneStorage] - performing DELETE at /dsswritebench285
+2015-11-07 11:38:21,713 [INFO] [NoneStorage] - performing DELETE at /dsswritebench286
+2015-11-07 11:38:21,739 [INFO] [NoneStorage] - performing DELETE at /dsswritebench287
+2015-11-07 11:38:21,764 [INFO] [NoneStorage] - performing DELETE at /dsswritebench288
+2015-11-07 11:38:21,789 [INFO] [NoneStorage] - performing DELETE at /dsswritebench289
+2015-11-07 11:38:21,814 [INFO] [NoneStorage] - performing DELETE at /dsswritebench290
+2015-11-07 11:38:21,844 [INFO] [NoneStorage] - performing DELETE at /dsswritebench291
+2015-11-07 11:38:21,869 [INFO] [NoneStorage] - performing DELETE at /dsswritebench292
+2015-11-07 11:38:21,893 [INFO] [NoneStorage] - performing DELETE at /dsswritebench293
+2015-11-07 11:38:21,932 [INFO] [NoneStorage] - performing DELETE at /dsswritebench294
+2015-11-07 11:38:21,957 [INFO] [NoneStorage] - performing DELETE at /dsswritebench295
+2015-11-07 11:38:21,983 [INFO] [NoneStorage] - performing DELETE at /dsswritebench296
+2015-11-07 11:38:22,018 [INFO] [NoneStorage] - performing DELETE at /dsswritebench297
+2015-11-07 11:38:22,041 [INFO] [NoneStorage] - performing DELETE at /dsswritebench298
+2015-11-07 11:38:22,072 [INFO] [NoneStorage] - performing DELETE at /dsswritebench299
+2015-11-07 11:38:22,093 [INFO] [NoneStorage] - performing DELETE at /dsswritebench300

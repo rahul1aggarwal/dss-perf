@@ -1,0 +1,312 @@
+================================================== stage: s1-64m-1t ==================================================
+---------------------------------- mission: M7E24F0CD29, driver: driver1 ----------------------------------
+2015-11-07 14:17:23,079 [INFO] [Log4jLogManager] - will append log to file /home/ubuntu/cos/log/mission/M7E24F0CD29.log
+2015-11-07 14:17:23,302 [INFO] [NoneStorage] - performing GET at /dssreadbench47/1myobject
+2015-11-07 14:17:24,214 [INFO] [NoneStorage] - performing GET at /dssreadbench49/2myobject
+2015-11-07 14:17:25,110 [INFO] [NoneStorage] - performing GET at /dssreadbench49/3myobject
+2015-11-07 14:17:26,006 [INFO] [NoneStorage] - performing GET at /dssreadbench42/4myobject
+2015-11-07 14:17:26,835 [INFO] [NoneStorage] - performing GET at /dssreadbench43/5myobject
+2015-11-07 14:17:27,808 [INFO] [NoneStorage] - performing GET at /dssreadbench47/6myobject
+2015-11-07 14:17:28,691 [INFO] [NoneStorage] - performing GET at /dssreadbench47/7myobject
+2015-11-07 14:17:30,191 [INFO] [NoneStorage] - performing GET at /dssreadbench47/8myobject
+2015-11-07 14:17:30,926 [INFO] [NoneStorage] - performing GET at /dssreadbench46/9myobject
+2015-11-07 14:17:31,805 [INFO] [NoneStorage] - performing GET at /dssreadbench48/10myobject
+2015-11-07 14:17:32,901 [INFO] [NoneStorage] - performing GET at /dssreadbench44/1myobject
+2015-11-07 14:17:34,309 [INFO] [NoneStorage] - performing GET at /dssreadbench46/2myobject
+2015-11-07 14:17:35,158 [INFO] [NoneStorage] - performing GET at /dssreadbench42/3myobject
+2015-11-07 14:17:35,875 [INFO] [NoneStorage] - performing GET at /dssreadbench41/4myobject
+2015-11-07 14:17:36,761 [INFO] [NoneStorage] - performing GET at /dssreadbench49/5myobject
+2015-11-07 14:17:38,095 [INFO] [NoneStorage] - performing GET at /dssreadbench42/6myobject
+2015-11-07 14:17:39,030 [INFO] [NoneStorage] - performing GET at /dssreadbench44/7myobject
+2015-11-07 14:17:39,923 [INFO] [NoneStorage] - performing GET at /dssreadbench50/8myobject
+2015-11-07 14:17:40,916 [INFO] [NoneStorage] - performing GET at /dssreadbench41/9myobject
+2015-11-07 14:17:42,130 [INFO] [NoneStorage] - performing GET at /dssreadbench47/10myobject
+2015-11-07 14:17:42,824 [INFO] [NoneStorage] - performing GET at /dssreadbench46/1myobject
+2015-11-07 14:17:44,265 [INFO] [NoneStorage] - performing GET at /dssreadbench41/2myobject
+2015-11-07 14:17:45,560 [INFO] [NoneStorage] - performing GET at /dssreadbench47/3myobject
+2015-11-07 14:17:46,294 [INFO] [NoneStorage] - performing GET at /dssreadbench47/4myobject
+2015-11-07 14:17:47,046 [INFO] [NoneStorage] - performing GET at /dssreadbench42/5myobject
+2015-11-07 14:17:48,648 [INFO] [NoneStorage] - performing GET at /dssreadbench42/6myobject
+2015-11-07 14:17:49,379 [INFO] [NoneStorage] - performing GET at /dssreadbench49/7myobject
+2015-11-07 14:17:50,155 [INFO] [NoneStorage] - performing GET at /dssreadbench49/8myobject
+2015-11-07 14:17:51,840 [INFO] [NoneStorage] - performing GET at /dssreadbench41/9myobject
+2015-11-07 14:17:52,706 [INFO] [NoneStorage] - performing GET at /dssreadbench41/10myobject
+2015-11-07 14:17:53,965 [INFO] [NoneStorage] - performing GET at /dssreadbench49/1myobject
+2015-11-07 14:17:54,886 [INFO] [NoneStorage] - performing GET at /dssreadbench47/2myobject
+2015-11-07 14:17:55,891 [INFO] [NoneStorage] - performing GET at /dssreadbench41/3myobject
+2015-11-07 14:17:57,595 [INFO] [NoneStorage] - performing GET at /dssreadbench48/4myobject
+2015-11-07 14:17:58,562 [INFO] [NoneStorage] - performing GET at /dssreadbench46/5myobject
+2015-11-07 14:17:59,363 [INFO] [NoneStorage] - performing GET at /dssreadbench42/6myobject
+2015-11-07 14:18:00,204 [INFO] [NoneStorage] - performing GET at /dssreadbench49/7myobject
+2015-11-07 14:18:01,063 [INFO] [NoneStorage] - performing GET at /dssreadbench43/8myobject
+2015-11-07 14:18:02,088 [INFO] [NoneStorage] - performing GET at /dssreadbench42/9myobject
+2015-11-07 14:18:03,214 [INFO] [NoneStorage] - performing GET at /dssreadbench41/10myobject
+2015-11-07 14:18:04,034 [INFO] [NoneStorage] - performing GET at /dssreadbench45/1myobject
+2015-11-07 14:18:04,743 [INFO] [NoneStorage] - performing GET at /dssreadbench49/2myobject
+2015-11-07 14:18:05,672 [INFO] [NoneStorage] - performing GET at /dssreadbench50/3myobject
+2015-11-07 14:18:06,373 [INFO] [NoneStorage] - performing GET at /dssreadbench45/4myobject
+2015-11-07 14:18:07,601 [INFO] [NoneStorage] - performing GET at /dssreadbench48/5myobject
+2015-11-07 14:18:08,432 [INFO] [NoneStorage] - performing GET at /dssreadbench44/6myobject
+2015-11-07 14:18:09,315 [INFO] [NoneStorage] - performing GET at /dssreadbench41/7myobject
+2015-11-07 14:18:10,119 [INFO] [NoneStorage] - performing GET at /dssreadbench46/8myobject
+2015-11-07 14:18:10,978 [INFO] [NoneStorage] - performing GET at /dssreadbench48/9myobject
+2015-11-07 14:18:12,033 [INFO] [NoneStorage] - performing GET at /dssreadbench41/10myobject
+2015-11-07 14:18:12,972 [INFO] [NoneStorage] - performing GET at /dssreadbench41/1myobject
+2015-11-07 14:18:13,799 [INFO] [NoneStorage] - performing GET at /dssreadbench41/2myobject
+2015-11-07 14:18:14,623 [INFO] [NoneStorage] - performing GET at /dssreadbench42/3myobject
+2015-11-07 14:18:15,328 [INFO] [NoneStorage] - performing GET at /dssreadbench50/4myobject
+2015-11-07 14:18:16,145 [INFO] [NoneStorage] - performing GET at /dssreadbench43/5myobject
+2015-11-07 14:18:17,125 [INFO] [NoneStorage] - performing GET at /dssreadbench47/6myobject
+2015-11-07 14:18:17,994 [INFO] [NoneStorage] - performing GET at /dssreadbench42/7myobject
+2015-11-07 14:18:18,944 [INFO] [NoneStorage] - performing GET at /dssreadbench49/8myobject
+2015-11-07 14:18:19,762 [INFO] [NoneStorage] - performing GET at /dssreadbench41/9myobject
+2015-11-07 14:18:20,620 [INFO] [NoneStorage] - performing GET at /dssreadbench49/10myobject
+2015-11-07 14:18:21,500 [INFO] [NoneStorage] - performing GET at /dssreadbench47/1myobject
+2015-11-07 14:18:22,329 [INFO] [NoneStorage] - performing GET at /dssreadbench45/2myobject
+================================================== stage: s2-64m-4t ==================================================
+---------------------------------- mission: M3E25002047, driver: driver1 ----------------------------------
+2015-11-07 14:18:26,007 [INFO] [Log4jLogManager] - will append log to file /home/ubuntu/cos/log/mission/M3E25002047.log
+2015-11-07 14:18:26,063 [INFO] [NoneStorage] - performing GET at /dssreadbench41/3myobject
+2015-11-07 14:18:26,063 [INFO] [NoneStorage] - performing GET at /dssreadbench43/2myobject
+2015-11-07 14:18:26,063 [INFO] [NoneStorage] - performing GET at /dssreadbench42/4myobject
+2015-11-07 14:18:26,063 [INFO] [NoneStorage] - performing GET at /dssreadbench50/1myobject
+2015-11-07 14:18:27,006 [INFO] [NoneStorage] - performing GET at /dssreadbench48/5myobject
+2015-11-07 14:18:27,156 [INFO] [NoneStorage] - performing GET at /dssreadbench42/6myobject
+2015-11-07 14:18:28,327 [INFO] [NoneStorage] - performing GET at /dssreadbench42/7myobject
+2015-11-07 14:18:28,383 [INFO] [NoneStorage] - performing GET at /dssreadbench42/8myobject
+2015-11-07 14:18:28,561 [INFO] [NoneStorage] - performing GET at /dssreadbench44/9myobject
+2015-11-07 14:18:29,536 [INFO] [NoneStorage] - performing GET at /dssreadbench45/10myobject
+2015-11-07 14:18:29,771 [INFO] [NoneStorage] - performing GET at /dssreadbench43/1myobject
+2015-11-07 14:18:29,788 [INFO] [NoneStorage] - performing GET at /dssreadbench42/2myobject
+2015-11-07 14:18:31,040 [INFO] [NoneStorage] - performing GET at /dssreadbench49/3myobject
+2015-11-07 14:18:31,667 [INFO] [NoneStorage] - performing GET at /dssreadbench46/4myobject
+2015-11-07 14:18:31,743 [INFO] [NoneStorage] - performing GET at /dssreadbench46/5myobject
+2015-11-07 14:18:35,102 [INFO] [NoneStorage] - performing GET at /dssreadbench45/6myobject
+2015-11-07 14:18:35,165 [INFO] [NoneStorage] - performing GET at /dssreadbench43/7myobject
+2015-11-07 14:18:35,547 [INFO] [NoneStorage] - performing GET at /dssreadbench44/8myobject
+2015-11-07 14:18:35,873 [INFO] [NoneStorage] - performing GET at /dssreadbench49/9myobject
+2015-11-07 14:18:36,092 [INFO] [NoneStorage] - performing GET at /dssreadbench49/10myobject
+2015-11-07 14:18:36,561 [INFO] [NoneStorage] - performing GET at /dssreadbench44/1myobject
+2015-11-07 14:18:37,035 [INFO] [NoneStorage] - performing GET at /dssreadbench48/2myobject
+2015-11-07 14:18:37,579 [INFO] [NoneStorage] - performing GET at /dssreadbench50/3myobject
+2015-11-07 14:18:37,840 [INFO] [NoneStorage] - performing GET at /dssreadbench43/4myobject
+2015-11-07 14:18:39,980 [INFO] [NoneStorage] - performing GET at /dssreadbench44/5myobject
+2015-11-07 14:18:40,724 [INFO] [NoneStorage] - performing GET at /dssreadbench48/6myobject
+2015-11-07 14:18:42,130 [INFO] [NoneStorage] - performing GET at /dssreadbench47/7myobject
+2015-11-07 14:18:42,161 [INFO] [NoneStorage] - performing GET at /dssreadbench46/8myobject
+2015-11-07 14:18:42,759 [INFO] [NoneStorage] - performing GET at /dssreadbench47/9myobject
+2015-11-07 14:18:43,042 [INFO] [NoneStorage] - performing GET at /dssreadbench41/10myobject
+2015-11-07 14:18:43,517 [INFO] [NoneStorage] - performing GET at /dssreadbench42/1myobject
+2015-11-07 14:18:43,541 [INFO] [NoneStorage] - performing GET at /dssreadbench48/2myobject
+2015-11-07 14:18:43,792 [INFO] [NoneStorage] - performing GET at /dssreadbench46/3myobject
+2015-11-07 14:18:44,801 [INFO] [NoneStorage] - performing GET at /dssreadbench44/4myobject
+2015-11-07 14:18:45,167 [INFO] [NoneStorage] - performing GET at /dssreadbench44/5myobject
+2015-11-07 14:18:46,140 [INFO] [NoneStorage] - performing GET at /dssreadbench50/6myobject
+2015-11-07 14:18:46,180 [INFO] [NoneStorage] - performing GET at /dssreadbench47/7myobject
+2015-11-07 14:18:46,923 [INFO] [NoneStorage] - performing GET at /dssreadbench50/8myobject
+2015-11-07 14:18:47,201 [INFO] [NoneStorage] - performing GET at /dssreadbench48/9myobject
+2015-11-07 14:18:48,696 [INFO] [NoneStorage] - performing GET at /dssreadbench50/10myobject
+2015-11-07 14:18:49,204 [INFO] [NoneStorage] - performing GET at /dssreadbench49/1myobject
+2015-11-07 14:18:49,728 [INFO] [NoneStorage] - performing GET at /dssreadbench41/2myobject
+2015-11-07 14:18:50,412 [INFO] [NoneStorage] - performing GET at /dssreadbench46/3myobject
+2015-11-07 14:18:52,807 [INFO] [NoneStorage] - performing GET at /dssreadbench41/4myobject
+2015-11-07 14:18:53,632 [INFO] [NoneStorage] - performing GET at /dssreadbench41/5myobject
+2015-11-07 14:18:54,402 [INFO] [NoneStorage] - performing GET at /dssreadbench47/6myobject
+2015-11-07 14:18:54,838 [INFO] [NoneStorage] - performing GET at /dssreadbench41/7myobject
+2015-11-07 14:18:55,086 [INFO] [NoneStorage] - performing GET at /dssreadbench48/8myobject
+2015-11-07 14:18:55,183 [INFO] [NoneStorage] - performing GET at /dssreadbench41/9myobject
+2015-11-07 14:18:55,576 [INFO] [NoneStorage] - performing GET at /dssreadbench45/10myobject
+2015-11-07 14:18:55,598 [INFO] [NoneStorage] - performing GET at /dssreadbench41/1myobject
+2015-11-07 14:18:55,932 [INFO] [NoneStorage] - performing GET at /dssreadbench41/2myobject
+2015-11-07 14:18:56,445 [INFO] [NoneStorage] - performing GET at /dssreadbench48/3myobject
+2015-11-07 14:18:56,786 [INFO] [NoneStorage] - performing GET at /dssreadbench45/4myobject
+2015-11-07 14:18:59,425 [INFO] [NoneStorage] - performing GET at /dssreadbench49/5myobject
+2015-11-07 14:19:00,005 [INFO] [NoneStorage] - performing GET at /dssreadbench47/6myobject
+2015-11-07 14:19:00,751 [INFO] [NoneStorage] - performing GET at /dssreadbench49/7myobject
+2015-11-07 14:19:01,529 [INFO] [NoneStorage] - performing GET at /dssreadbench42/8myobject
+2015-11-07 14:19:03,025 [INFO] [NoneStorage] - performing GET at /dssreadbench44/9myobject
+2015-11-07 14:19:05,272 [INFO] [NoneStorage] - performing GET at /dssreadbench48/10myobject
+2015-11-07 14:19:05,350 [INFO] [NoneStorage] - performing GET at /dssreadbench42/1myobject
+2015-11-07 14:19:05,932 [INFO] [NoneStorage] - performing GET at /dssreadbench45/2myobject
+2015-11-07 14:19:06,957 [INFO] [NoneStorage] - performing GET at /dssreadbench45/3myobject
+2015-11-07 14:19:07,167 [INFO] [NoneStorage] - performing GET at /dssreadbench50/4myobject
+2015-11-07 14:19:07,878 [INFO] [NoneStorage] - performing GET at /dssreadbench47/5myobject
+2015-11-07 14:19:08,796 [INFO] [NoneStorage] - performing GET at /dssreadbench44/6myobject
+2015-11-07 14:19:08,987 [INFO] [NoneStorage] - performing GET at /dssreadbench42/7myobject
+2015-11-07 14:19:09,101 [INFO] [NoneStorage] - performing GET at /dssreadbench44/8myobject
+2015-11-07 14:19:09,275 [INFO] [NoneStorage] - performing GET at /dssreadbench49/9myobject
+2015-11-07 14:19:09,977 [INFO] [NoneStorage] - performing GET at /dssreadbench46/10myobject
+2015-11-07 14:19:11,096 [INFO] [NoneStorage] - performing GET at /dssreadbench41/1myobject
+2015-11-07 14:19:11,757 [INFO] [NoneStorage] - performing GET at /dssreadbench44/2myobject
+2015-11-07 14:19:12,124 [INFO] [NoneStorage] - performing GET at /dssreadbench49/3myobject
+2015-11-07 14:19:12,231 [INFO] [NoneStorage] - performing GET at /dssreadbench42/4myobject
+2015-11-07 14:19:13,171 [INFO] [NoneStorage] - performing GET at /dssreadbench50/5myobject
+2015-11-07 14:19:13,251 [INFO] [NoneStorage] - performing GET at /dssreadbench46/6myobject
+2015-11-07 14:19:15,035 [INFO] [NoneStorage] - performing GET at /dssreadbench44/7myobject
+2015-11-07 14:19:15,134 [INFO] [NoneStorage] - performing GET at /dssreadbench41/8myobject
+2015-11-07 14:19:15,174 [INFO] [NoneStorage] - performing GET at /dssreadbench48/9myobject
+2015-11-07 14:19:16,033 [INFO] [NoneStorage] - performing GET at /dssreadbench47/10myobject
+2015-11-07 14:19:16,732 [INFO] [NoneStorage] - performing GET at /dssreadbench45/1myobject
+2015-11-07 14:19:16,911 [INFO] [NoneStorage] - performing GET at /dssreadbench45/2myobject
+2015-11-07 14:19:17,473 [INFO] [NoneStorage] - performing GET at /dssreadbench45/3myobject
+2015-11-07 14:19:18,446 [INFO] [NoneStorage] - performing GET at /dssreadbench46/4myobject
+2015-11-07 14:19:18,555 [INFO] [NoneStorage] - performing GET at /dssreadbench47/5myobject
+2015-11-07 14:19:18,874 [INFO] [NoneStorage] - performing GET at /dssreadbench43/6myobject
+2015-11-07 14:19:19,390 [INFO] [NoneStorage] - performing GET at /dssreadbench46/7myobject
+2015-11-07 14:19:20,241 [INFO] [NoneStorage] - performing GET at /dssreadbench48/8myobject
+2015-11-07 14:19:20,681 [INFO] [NoneStorage] - performing GET at /dssreadbench45/9myobject
+2015-11-07 14:19:21,426 [INFO] [NoneStorage] - performing GET at /dssreadbench44/10myobject
+2015-11-07 14:19:21,432 [INFO] [NoneStorage] - performing GET at /dssreadbench46/1myobject
+2015-11-07 14:19:22,274 [INFO] [NoneStorage] - performing GET at /dssreadbench46/2myobject
+2015-11-07 14:19:23,145 [INFO] [NoneStorage] - performing GET at /dssreadbench45/3myobject
+2015-11-07 14:19:23,252 [INFO] [NoneStorage] - performing GET at /dssreadbench43/4myobject
+2015-11-07 14:19:24,011 [INFO] [NoneStorage] - performing GET at /dssreadbench43/5myobject
+2015-11-07 14:19:24,697 [INFO] [NoneStorage] - performing GET at /dssreadbench46/6myobject
+2015-11-07 14:19:25,257 [INFO] [NoneStorage] - performing GET at /dssreadbench41/7myobject
+2015-11-07 14:19:26,058 [INFO] [NoneStorage] - performing GET at /dssreadbench44/8myobject
+================================================== stage: s3-64m-16t ==================================================
+---------------------------------- mission: MBE251291C9, driver: driver1 ----------------------------------
+2015-11-07 14:19:41,006 [INFO] [Log4jLogManager] - will append log to file /home/ubuntu/cos/log/mission/MBE251291C9.log
+2015-11-07 14:19:41,080 [INFO] [NoneStorage] - performing GET at /dssreadbench45/1myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench43/5myobject
+2015-11-07 14:19:41,083 [INFO] [NoneStorage] - performing GET at /dssreadbench42/6myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench49/4myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench43/3myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench41/2myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench46/1myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench47/10myobject
+2015-11-07 14:19:41,082 [INFO] [NoneStorage] - performing GET at /dssreadbench45/9myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench49/8myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench46/7myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench46/5myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench48/6myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench43/4myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench41/3myobject
+2015-11-07 14:19:41,081 [INFO] [NoneStorage] - performing GET at /dssreadbench45/2myobject
+2015-11-07 14:19:46,465 [INFO] [NoneStorage] - performing GET at /dssreadbench46/7myobject
+2015-11-07 14:19:46,604 [INFO] [NoneStorage] - performing GET at /dssreadbench48/8myobject
+2015-11-07 14:19:46,772 [INFO] [NoneStorage] - performing GET at /dssreadbench46/9myobject
+2015-11-07 14:19:47,195 [INFO] [NoneStorage] - performing GET at /dssreadbench49/10myobject
+2015-11-07 14:19:47,356 [INFO] [NoneStorage] - performing GET at /dssreadbench49/1myobject
+2015-11-07 14:19:47,464 [INFO] [NoneStorage] - performing GET at /dssreadbench44/2myobject
+2015-11-07 14:19:48,021 [INFO] [NoneStorage] - performing GET at /dssreadbench46/3myobject
+2015-11-07 14:19:48,406 [INFO] [NoneStorage] - performing GET at /dssreadbench50/4myobject
+2015-11-07 14:19:48,766 [INFO] [NoneStorage] - performing GET at /dssreadbench43/5myobject
+2015-11-07 14:19:48,777 [INFO] [NoneStorage] - performing GET at /dssreadbench49/6myobject
+2015-11-07 14:19:49,379 [INFO] [NoneStorage] - performing GET at /dssreadbench41/7myobject
+2015-11-07 14:19:49,608 [INFO] [NoneStorage] - performing GET at /dssreadbench46/8myobject
+2015-11-07 14:19:51,184 [INFO] [NoneStorage] - performing GET at /dssreadbench45/9myobject
+2015-11-07 14:19:51,511 [INFO] [NoneStorage] - performing GET at /dssreadbench45/10myobject
+2015-11-07 14:19:51,717 [INFO] [NoneStorage] - performing GET at /dssreadbench49/1myobject
+2015-11-07 14:19:52,492 [INFO] [NoneStorage] - performing GET at /dssreadbench44/2myobject
+2015-11-07 14:19:52,946 [INFO] [NoneStorage] - performing GET at /dssreadbench46/3myobject
+2015-11-07 14:19:53,973 [INFO] [NoneStorage] - performing GET at /dssreadbench45/4myobject
+2015-11-07 14:19:54,052 [INFO] [NoneStorage] - performing GET at /dssreadbench47/5myobject
+2015-11-07 14:19:54,702 [INFO] [NoneStorage] - performing GET at /dssreadbench49/6myobject
+2015-11-07 14:19:54,776 [INFO] [NoneStorage] - performing GET at /dssreadbench49/7myobject
+2015-11-07 14:19:55,313 [INFO] [NoneStorage] - performing GET at /dssreadbench45/8myobject
+2015-11-07 14:19:55,359 [INFO] [NoneStorage] - performing GET at /dssreadbench45/9myobject
+2015-11-07 14:19:55,959 [INFO] [NoneStorage] - performing GET at /dssreadbench48/10myobject
+2015-11-07 14:19:57,143 [INFO] [NoneStorage] - performing GET at /dssreadbench46/1myobject
+2015-11-07 14:19:57,397 [INFO] [NoneStorage] - performing GET at /dssreadbench49/2myobject
+2015-11-07 14:19:57,910 [INFO] [NoneStorage] - performing GET at /dssreadbench43/3myobject
+2015-11-07 14:19:58,906 [INFO] [NoneStorage] - performing GET at /dssreadbench50/4myobject
+2015-11-07 14:19:59,418 [INFO] [NoneStorage] - performing GET at /dssreadbench44/5myobject
+2015-11-07 14:19:59,579 [INFO] [NoneStorage] - performing GET at /dssreadbench41/6myobject
+2015-11-07 14:20:00,290 [INFO] [NoneStorage] - performing GET at /dssreadbench43/7myobject
+2015-11-07 14:20:00,329 [INFO] [NoneStorage] - performing GET at /dssreadbench43/8myobject
+2015-11-07 14:20:01,035 [INFO] [NoneStorage] - performing GET at /dssreadbench42/9myobject
+2015-11-07 14:20:01,125 [INFO] [NoneStorage] - performing GET at /dssreadbench41/10myobject
+2015-11-07 14:20:02,058 [INFO] [NoneStorage] - performing GET at /dssreadbench46/1myobject
+2015-11-07 14:20:02,304 [INFO] [NoneStorage] - performing GET at /dssreadbench42/2myobject
+2015-11-07 14:20:02,331 [INFO] [NoneStorage] - performing GET at /dssreadbench46/3myobject
+2015-11-07 14:20:04,746 [INFO] [NoneStorage] - performing GET at /dssreadbench48/4myobject
+2015-11-07 14:20:06,206 [INFO] [NoneStorage] - performing GET at /dssreadbench50/5myobject
+2015-11-07 14:20:06,546 [INFO] [NoneStorage] - performing GET at /dssreadbench43/6myobject
+2015-11-07 14:20:07,273 [INFO] [NoneStorage] - performing GET at /dssreadbench48/7myobject
+2015-11-07 14:20:07,403 [INFO] [NoneStorage] - performing GET at /dssreadbench44/8myobject
+2015-11-07 14:20:07,474 [INFO] [NoneStorage] - performing GET at /dssreadbench44/9myobject
+2015-11-07 14:20:07,650 [INFO] [NoneStorage] - performing GET at /dssreadbench49/10myobject
+2015-11-07 14:20:07,833 [INFO] [NoneStorage] - performing GET at /dssreadbench46/1myobject
+2015-11-07 14:20:08,433 [INFO] [NoneStorage] - performing GET at /dssreadbench44/2myobject
+2015-11-07 14:20:10,850 [INFO] [NoneStorage] - performing GET at /dssreadbench47/3myobject
+2015-11-07 14:20:10,885 [INFO] [NoneStorage] - performing GET at /dssreadbench43/4myobject
+2015-11-07 14:20:11,150 [INFO] [NoneStorage] - performing GET at /dssreadbench49/5myobject
+2015-11-07 14:20:11,193 [INFO] [NoneStorage] - performing GET at /dssreadbench42/6myobject
+2015-11-07 14:20:11,609 [INFO] [NoneStorage] - performing GET at /dssreadbench46/7myobject
+2015-11-07 14:20:11,630 [INFO] [NoneStorage] - performing GET at /dssreadbench48/8myobject
+2015-11-07 14:20:11,826 [INFO] [NoneStorage] - performing GET at /dssreadbench48/9myobject
+2015-11-07 14:20:12,821 [INFO] [NoneStorage] - performing GET at /dssreadbench48/10myobject
+2015-11-07 14:20:13,968 [INFO] [NoneStorage] - performing GET at /dssreadbench41/1myobject
+2015-11-07 14:20:14,183 [INFO] [NoneStorage] - performing GET at /dssreadbench50/2myobject
+2015-11-07 14:20:14,712 [INFO] [NoneStorage] - performing GET at /dssreadbench44/3myobject
+2015-11-07 14:20:15,979 [INFO] [NoneStorage] - performing GET at /dssreadbench43/4myobject
+2015-11-07 14:20:16,223 [INFO] [NoneStorage] - performing GET at /dssreadbench49/5myobject
+2015-11-07 14:20:17,143 [INFO] [NoneStorage] - performing GET at /dssreadbench46/6myobject
+2015-11-07 14:20:18,229 [INFO] [NoneStorage] - performing GET at /dssreadbench41/7myobject
+2015-11-07 14:20:19,313 [INFO] [NoneStorage] - performing GET at /dssreadbench42/8myobject
+2015-11-07 14:20:19,442 [INFO] [NoneStorage] - performing GET at /dssreadbench43/9myobject
+2015-11-07 14:20:19,851 [INFO] [NoneStorage] - performing GET at /dssreadbench47/10myobject
+2015-11-07 14:20:20,128 [INFO] [NoneStorage] - performing GET at /dssreadbench49/1myobject
+2015-11-07 14:20:20,465 [INFO] [NoneStorage] - performing GET at /dssreadbench44/2myobject
+2015-11-07 14:20:20,482 [INFO] [NoneStorage] - performing GET at /dssreadbench42/3myobject
+2015-11-07 14:20:20,875 [INFO] [NoneStorage] - performing GET at /dssreadbench43/4myobject
+2015-11-07 14:20:21,011 [INFO] [NoneStorage] - performing GET at /dssreadbench42/5myobject
+2015-11-07 14:20:21,302 [INFO] [NoneStorage] - performing GET at /dssreadbench50/6myobject
+2015-11-07 14:20:21,788 [INFO] [NoneStorage] - performing GET at /dssreadbench47/7myobject
+2015-11-07 14:20:21,871 [INFO] [NoneStorage] - performing GET at /dssreadbench47/8myobject
+2015-11-07 14:20:23,564 [INFO] [NoneStorage] - performing GET at /dssreadbench47/9myobject
+2015-11-07 14:20:23,956 [INFO] [NoneStorage] - performing GET at /dssreadbench44/10myobject
+2015-11-07 14:20:24,785 [INFO] [NoneStorage] - performing GET at /dssreadbench42/1myobject
+2015-11-07 14:20:26,452 [INFO] [NoneStorage] - performing GET at /dssreadbench43/2myobject
+2015-11-07 14:20:26,727 [INFO] [NoneStorage] - performing GET at /dssreadbench41/3myobject
+2015-11-07 14:20:27,240 [INFO] [NoneStorage] - performing GET at /dssreadbench49/4myobject
+2015-11-07 14:20:27,574 [INFO] [NoneStorage] - performing GET at /dssreadbench41/5myobject
+2015-11-07 14:20:27,709 [INFO] [NoneStorage] - performing GET at /dssreadbench43/6myobject
+2015-11-07 14:20:28,649 [INFO] [NoneStorage] - performing GET at /dssreadbench46/7myobject
+2015-11-07 14:20:28,777 [INFO] [NoneStorage] - performing GET at /dssreadbench41/8myobject
+2015-11-07 14:20:29,126 [INFO] [NoneStorage] - performing GET at /dssreadbench41/9myobject
+2015-11-07 14:20:29,695 [INFO] [NoneStorage] - performing GET at /dssreadbench46/10myobject
+2015-11-07 14:20:30,011 [INFO] [NoneStorage] - performing GET at /dssreadbench43/1myobject
+2015-11-07 14:20:30,171 [INFO] [NoneStorage] - performing GET at /dssreadbench46/2myobject
+2015-11-07 14:20:30,610 [INFO] [NoneStorage] - performing GET at /dssreadbench47/3myobject
+2015-11-07 14:20:30,949 [INFO] [NoneStorage] - performing GET at /dssreadbench41/4myobject
+2015-11-07 14:20:32,073 [INFO] [NoneStorage] - performing GET at /dssreadbench48/5myobject
+2015-11-07 14:20:34,787 [INFO] [NoneStorage] - performing GET at /dssreadbench47/6myobject
+2015-11-07 14:20:35,386 [INFO] [NoneStorage] - performing GET at /dssreadbench43/7myobject
+2015-11-07 14:20:35,839 [INFO] [NoneStorage] - performing GET at /dssreadbench45/8myobject
+2015-11-07 14:20:37,056 [INFO] [NoneStorage] - performing GET at /dssreadbench47/9myobject
+2015-11-07 14:20:37,067 [INFO] [NoneStorage] - performing GET at /dssreadbench44/10myobject
+2015-11-07 14:20:37,392 [INFO] [NoneStorage] - performing GET at /dssreadbench41/1myobject
+2015-11-07 14:20:37,523 [INFO] [NoneStorage] - performing GET at /dssreadbench43/2myobject
+2015-11-07 14:20:38,884 [INFO] [NoneStorage] - performing GET at /dssreadbench42/3myobject
+2015-11-07 14:20:40,310 [INFO] [NoneStorage] - performing GET at /dssreadbench49/4myobject
+2015-11-07 14:22:32,760 [ERROR] [AbstractOperator] - worker 1 fail to perform operation dssreadbench45/8myobject
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:187)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:164)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:138)
+	at java.security.DigestInputStream.read(DigestInputStream.java:161)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.amazonaws.services.s3.internal.ChecksumValidatingInputStream.read(ChecksumValidatingInputStream.java:97)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+================================================== stage: s4-64m-32t ==================================================
+================================================== stage: s5-64m-64t ==================================================
+================================================== stage: s6-64m-128t ==================================================

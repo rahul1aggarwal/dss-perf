@@ -1,0 +1,2 @@
+Stage,Op-Name,Op-Type,Op-Count,Byte-Count,Avg-ResTime,Avg-ProcTime,60%-ResTime,80%-ResTime,90%-ResTime,95%-ResTime,99%-ResTime,100%-ResTime,Throughput,Bandwidth,Succ-Ratio,Status,Detailed Status
+cleanup,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,terminated,waiting @ 2015-11-07 10:32:44,booting @ 2015-11-07 10:32:44,submitting @ 2015-11-07 10:32:44,terminated @ 2015-11-07 10:32:44

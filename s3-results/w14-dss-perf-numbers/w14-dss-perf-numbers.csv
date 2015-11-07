@@ -1,0 +1,2 @@
+Stage,Op-Name,Op-Type,Op-Count,Byte-Count,Avg-ResTime,Avg-ProcTime,60%-ResTime,80%-ResTime,90%-ResTime,95%-ResTime,99%-ResTime,100%-ResTime,Throughput,Bandwidth,Succ-Ratio,Status,Detailed Status
+s1-64m-1t-write,write,write,548,35913728000,3794.83,320.89,3670,4830,5820,6350,8690,43010,2.06,135124682.78,91.18%,cancelled,waiting @ 2015-11-07 13:09:05,booting @ 2015-11-07 13:09:05,submitting @ 2015-11-07 13:09:03,authing @ 2015-11-07 13:09:03,launching @ 2015-11-07 13:09:03,running @ 2015-11-07 13:09:03,cancelled @ 2015-11-07 13:30:42
